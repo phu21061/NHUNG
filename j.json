@@ -1,0 +1,6418 @@
+{
+  "AI_De_Xuat": {
+    "-OqMN0Ez3A_dBVWQcZD0": {
+      "muc_do": "Khẩn cấp",
+      "thong_bao": "Phát hiện có sự thay đổi cấu hình liên tục từ 2 tài khoản khác nhau. Vui lòng thống nhất thông số bright_active để hệ thống chạy ổn định.",
+      "timestamp": 1776361150487
+    },
+    "-OqOHJE8CYF6KTk39oBH": {
+      "muc_do": "Khẩn cấp",
+      "thong_bao": "Phát hiện có sự thay đổi cấu hình liên tục từ 2 tài khoản khác nhau. Vui lòng thống nhất thông số bright_active để hệ thống chạy ổn định.",
+      "timestamp": 1776393210827
+    },
+    "-OqOHe-nlOEWs0R_gLU2": {
+      "muc_do": "Khẩn cấp",
+      "ngay_gio": "09:34:59 17/04/2026",
+      "thong_bao": "Phát hiện có sự thay đổi cấu hình liên tục từ 2 tài khoản khác nhau. Vui lòng thống nhất thông số bright_active để hệ thống chạy ổn định.",
+      "timestamp": 1776393300013
+    },
+    "-OqOQNN4_Ct3YjtCGXQs": {
+      "muc_do": "Quan trọng",
+      "ngay_gio": "10:13:07 17/04/2026",
+      "thong_bao": "Đèn đang tắt (0%) dù cấu hình no_person là 11%, hãy kiểm tra lại logic điều khiển hoặc cập nhật firmware để đồng bộ trạng thái.",
+      "timestamp": 1776395587196
+    },
+    "-OqOQNNm0VCIIYKgPnkD": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:13:07 17/04/2026",
+      "thong_bao": "Cường độ ánh sáng môi trường (2 lux) thấp hơn ngưỡng (59 lux), hệ thống đang hoạt động đúng chế độ 'dark' nhưng cần điều chỉnh lại độ sáng chờ nếu muốn tiết kiệm điện hơn.",
+      "timestamp": 1776395587241
+    },
+    "-OqOQNOVzRSvtaW4QpTm": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:13:07 17/04/2026",
+      "thong_bao": "Dữ liệu lịch sử cho thấy cấu hình thủ công (100%/50%) khác biệt lớn với cấu hình hiện tại, cân nhắc chuẩn hóa lại thông số để tối ưu trải nghiệm người dùng.",
+      "timestamp": 1776395587287
+    },
+    "-OqORWGkr1ZfuZfoX72o": {
+      "muc_do": "Cảnh báo",
+      "ngay_gio": "10:18:05 17/04/2026",
+      "thong_bao": "Giảm bright_no_person từ 11% xuống 0% vì hiện tại thiết bị đang ở trạng thái không có người (no_person) nhưng vẫn duy trì mức sáng tiêu thụ điện không cần thiết.",
+      "timestamp": 1776395885657
+    },
+    "-OqORWHHhmdPNT6045zm": {
+      "muc_do": "Quan trọng",
+      "ngay_gio": "10:18:05 17/04/2026",
+      "thong_bao": "Điều chỉnh bright_active từ 100% xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo đủ độ sáng cần thiết cho không gian khi có người hiện diện.",
+      "timestamp": 1776395885691
+    },
+    "-OqORWHmhwKScQytb1kN": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:18:05 17/04/2026",
+      "thong_bao": "Xem xét giảm lux_threshold từ 59 xuống 40 để tránh việc đèn tự động kích hoạt khi môi trường đã có đủ ánh sáng tự nhiên.",
+      "timestamp": 1776395885723
+    },
+    "-OqOWBHVNtFlGScok_ai": {
+      "muc_do": "Quan trọng",
+      "ngay_gio": "10:38:30 17/04/2026",
+      "thong_bao": "Giảm bright_no_person từ 11% xuống 0% vì môi trường hiện tại đang ở chế độ 'dark' (2 lux), việc duy trì đèn sáng khi không có người là không cần thiết.",
+      "timestamp": 1776397110392
+    },
+    "-OqOWBI7ZwDV_4-SPzMu": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:38:30 17/04/2026",
+      "thong_bao": "Cân nhắc giảm bright_active từ 100% xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo đủ độ sáng cho người dùng khi có mặt trong phòng.",
+      "timestamp": 1776397110432
+    },
+    "-OqOWIiGgwS_ke1DKcZR": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:39:00 17/04/2026",
+      "thong_bao": "Giảm bright_still từ 76% xuống 50% để tiết kiệm điện năng khi người dùng chỉ ngồi yên làm việc mà vẫn đảm bảo đủ ánh sáng.",
+      "timestamp": 1776397140843
+    },
+    "-OqOWIiztZwx-SqiQSrA": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:39:00 17/04/2026",
+      "thong_bao": "Điều chỉnh lux_threshold từ 59 xuống 40 để tránh việc đèn tự động bật khi môi trường đã có đủ ánh sáng tự nhiên, giúp giảm tiêu thụ điện không cần thiết.",
+      "timestamp": 1776397140889
+    },
+    "-OqOWRsSndmnwxGIaORJ": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:39:38 17/04/2026",
+      "thong_bao": "Độ sáng môi trường hiện tại (2 lux) rất thấp, bạn có thể cân nhắc giảm bright_active từ 100% xuống 80% để tiết kiệm điện mà vẫn đảm bảo đủ ánh sáng sinh hoạt.",
+      "timestamp": 1776397178374
+    },
+    "-OqOWRt-AkQjD4EvWu9F": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:39:38 17/04/2026",
+      "thong_bao": "Hệ thống đang hoạt động tối ưu khi không có người (bright_no_person = 0%), hãy duy trì cấu hình này để đảm bảo không có điện năng lãng phí khi phòng trống.",
+      "timestamp": 1776397178410
+    },
+    "-OqOYsj6EFQUdaUkfZ2f": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:50:16 17/04/2026",
+      "thong_bao": "Độ sáng khi có người (bright_active) đang ở mức 100%, hãy giảm xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo đủ ánh sáng cho sinh hoạt.",
+      "timestamp": 1776397816733
+    },
+    "-OqOYsjiE3IQs033A1JP": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:50:16 17/04/2026",
+      "thong_bao": "Độ sáng khi có người ngồi yên (bright_still) đang ở mức 50%, có thể giảm xuống 30% để tối ưu hóa tiêu thụ điện khi người dùng ít vận động.",
+      "timestamp": 1776397816772
+    },
+    "-OqOZCChBK2Gp2FIMd6k": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:51:40 17/04/2026",
+      "thong_bao": "Giảm bright_active từ 100% xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo độ sáng cần thiết cho không gian khi có người.",
+      "timestamp": 1776397900626
+    },
+    "-OqOZCDMVdA7pfu8Y9UD": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:51:40 17/04/2026",
+      "thong_bao": "Điều chỉnh lux_threshold từ 59 xuống 40 để tránh việc đèn tự động kích hoạt khi ánh sáng môi trường vẫn đủ dùng, giúp tối ưu hóa tiêu thụ năng lượng.",
+      "timestamp": 1776397900668
+    },
+    "-OqOZF_TkPb52ZgMfcas": {
+      "muc_do": "Cảnh báo",
+      "ngay_gio": "10:51:54 17/04/2026",
+      "thong_bao": "Đèn đang sáng 50% dù không có người (no_person), hãy giảm bright_no_person từ 0% (cấu hình) xuống 0% ngay lập tức để tránh lãng phí điện năng.",
+      "timestamp": 1776397914419
+    },
+    "-OqOZFa6hPVs2PowMKhU": {
+      "muc_do": "Quan trọng",
+      "ngay_gio": "10:51:54 17/04/2026",
+      "thong_bao": "Độ sáng môi trường (78 lux) đã cao hơn ngưỡng (59 lux) nhưng đèn vẫn sáng 50%, hãy thiết lập lại lux_threshold cao hơn để đèn tự động tắt khi đủ sáng tự nhiên.",
+      "timestamp": 1776397914460
+    },
+    "-OqOZFb-sAdNsAnnC-Ha": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:51:54 17/04/2026",
+      "thong_bao": "Cân nhắc giảm bright_still từ 50% xuống 30% khi phát hiện người ngồi yên để tiết kiệm điện mà vẫn đảm bảo đủ ánh sáng làm việc.",
+      "timestamp": 1776397914517
+    },
+    "-OqOZLIgmIjN40vmvTb-": {
+      "muc_do": "Thông tin",
+      "ngay_gio": "10:52:17 17/04/2026",
+      "thong_bao": "Độ sáng bright_active hiện tại là 100% khá cao, hãy cân nhắc giảm xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo đủ ánh sáng sinh hoạt.",
+      "timestamp": 1776397937861
+    },
+    "-OqOZLJjODzdgL28q7QI": {
+      "muc_do": "Quan trọng",
+      "ngay_gio": "10:52:17 17/04/2026",
+      "thong_bao": "Độ sáng khi có người ngồi yên (bright_still) đang ở mức 50%, bạn có thể giảm xuống 30% để tối ưu hóa điện năng tiêu thụ trong thời gian dài không di chuyển.",
+      "timestamp": 1776397937929
+    }
+  },
+  "Config": {
+    "bright_active": 58,
+    "bright_no_person": 0,
+    "bright_still": 50,
+    "lux_threshold": 59,
+    "measure_mode": false
+  },
+  "Control": {
+    "dieu_khien": true,
+    "do_sang": 0
+  },
+  "LichSuHeThong": {
+    "-OqBdqP1uCK28-Spcvch": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:41:14 14/04/2026"
+    },
+    "-OqBdq_F7OmWp7zT6536": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:41:14 14/04/2026"
+    },
+    "-OqBdqn4k3OGCIV70P9R": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:41:15 14/04/2026"
+    },
+    "-OqBeH5uTyVLTQ9yGx95": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:43:07 14/04/2026"
+    },
+    "-OqBeLGW-GOTtAGvl0vW": {
+      "chi_tiet": "active:100% still:16% noPerson:0% lux:184",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:43:24 14/04/2026"
+    },
+    "-OqBeM-bf4RfS7gcDspA": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:43:27 14/04/2026"
+    },
+    "-OqBeMHnkfKEakJF98ey": {
+      "chi_tiet": "64%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:43:28 14/04/2026"
+    },
+    "-OqBeQ3CnVgEZ6xJf7K9": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:43:44 14/04/2026"
+    },
+    "-OqBfaSAoaJHlThxqtKO": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:48:53 14/04/2026"
+    },
+    "-OqBfbiyKXlh1frChKml": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:48:58 14/04/2026"
+    },
+    "-OqBggW73Q3ehGTreD-D": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:53:40 14/04/2026"
+    },
+    "-OqBghbJLUxnLNbnN1Sv": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:53:44 14/04/2026"
+    },
+    "-OqBhIMr1FSvAC-jSg9Z": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "22:56:19 14/04/2026"
+    },
+    "-OqBl-MJ8uOr5QK9IYrU": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:12:30 14/04/2026"
+    },
+    "-OqBmCGjb1SXIoa9YzaR": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:17:44 14/04/2026"
+    },
+    "-OqBmDLRGJqxg9T5q98n": {
+      "chi_tiet": "100%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:17:49 14/04/2026"
+    },
+    "-OqBmEPf6pnfSdC_xGfc": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:17:53 14/04/2026"
+    },
+    "-OqBmGAVn3PkDwYQiskv": {
+      "chi_tiet": "bật đèn",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:18:00 14/04/2026"
+    },
+    "-OqBmGAXmjb8Qw-0N8YA": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:18:00 14/04/2026"
+    },
+    "-OqBmKNhbbKx74I5bJiO": {
+      "chi_tiet": "bật chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:18:18 14/04/2026"
+    },
+    "-OqBmKNiPjH7DhZc0yTf": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:18:18 14/04/2026"
+    },
+    "-OqBn3CNZ3qx5XItIkMx": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:21:30 14/04/2026"
+    },
+    "-OqBn5MQ48rE8pSUWdkV": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:21:38 14/04/2026"
+    },
+    "-OqBn6Fx2ovvqungAWOA": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:21:42 14/04/2026"
+    },
+    "-OqBnZ2B3zUtb9a_wKBD": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:23:40 14/04/2026"
+    },
+    "-OqBn_1UpKf2U3W4Sq2B": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:23:44 14/04/2026"
+    },
+    "-OqBn_YOUii-kYs-OLqM": {
+      "chi_tiet": "21%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:23:46 14/04/2026"
+    },
+    "-OqBnzLbUEp5AadmlmDI": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:25:32 14/04/2026"
+    },
+    "-OqBo1g5d0U9ZH0AL6Fp": {
+      "chi_tiet": "32%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:25:45 14/04/2026"
+    },
+    "-OqBo1ogEA7UgWQDNOBR": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:25:46 14/04/2026"
+    },
+    "-OqBo2tO1cVlP0d5SHrw": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:25:50 14/04/2026"
+    },
+    "-OqBp3rU7ZNH-ay65tVs": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:30:17 14/04/2026"
+    },
+    "-OqBp4ng2MDmEHVcc666": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:30:20 14/04/2026"
+    },
+    "-OqBp5DaTWStxQ5yd3Zr": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:30:22 14/04/2026"
+    },
+    "-OqBpJ9EUA5grBQORu0K": {
+      "chi_tiet": "bật chế độ thủ công",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:31:19 14/04/2026"
+    },
+    "-OqBpJ9HU-5Teg7TOyoz": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:31:19 14/04/2026"
+    },
+    "-OqBpJbm6AmF3gz9ke5G": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:31:21 14/04/2026"
+    },
+    "-OqBpJveCjeXXjqD__SK": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:31:22 14/04/2026"
+    },
+    "-OqBpMY3XFuALIRA9cMD": {
+      "chi_tiet": "đèn sáng 1%",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:31:33 14/04/2026"
+    },
+    "-OqBqCIKUGwmnYH0ACvo": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:13 14/04/2026"
+    },
+    "-OqBqCM4W9gXXtUtXFDN": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:13 14/04/2026"
+    },
+    "-OqBqCNBtjf_kZDj_rD1": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:14 14/04/2026"
+    },
+    "-OqBqDQy-hrNK7bc-HxH": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:18 14/04/2026"
+    },
+    "-OqBqDXinwxWUDz5RBI2": {
+      "chi_tiet": "50%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:18 14/04/2026"
+    },
+    "-OqBqDjAAerlAIBlHoJJ": {
+      "chi_tiet": "100%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:19 14/04/2026"
+    },
+    "-OqBqDyCHNrsC8BaDu1I": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:20 14/04/2026"
+    },
+    "-OqBqEP7DpMNZxafgta3": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:22 14/04/2026"
+    },
+    "-OqBqFI6R7-fpU7ehaYB": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:35:26 14/04/2026"
+    },
+    "-OqBqOzGbr0JtoZnAL80": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:36:05 14/04/2026"
+    },
+    "-OqBsswaNYg8hHzhl0mE": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:46:56 14/04/2026"
+    },
+    "-OqBtQa8mWgDSiSTTDpf": {
+      "chi_tiet": "25%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:18 14/04/2026"
+    },
+    "-OqBtQhhvx4vF3ZCe-Yp": {
+      "chi_tiet": "9%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:18 14/04/2026"
+    },
+    "-OqBtQnxOOPIzbGRWdFH": {
+      "chi_tiet": "1%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:19 14/04/2026"
+    },
+    "-OqBtQr5cOZxX_bawYhz": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:19 14/04/2026"
+    },
+    "-OqBtSN9-JPuDNsZg_3w": {
+      "chi_tiet": "50%",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:25 14/04/2026"
+    },
+    "-OqBtUOONx219Wff0e5R": {
+      "chi_tiet": "27%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:33 14/04/2026"
+    },
+    "-OqBtc5wczgjFHRub0dc": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:09 14/04/2026"
+    },
+    "-OqBtc8vPR7ZewFA4s1n": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:50:10 14/04/2026"
+    },
+    "-OqBu861FLapqpAkRnr1": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:52:25 14/04/2026"
+    },
+    "-OqBu8rGxVENpL2SFf8q": {
+      "chi_tiet": "64%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:52:28 14/04/2026"
+    },
+    "-OqBuB_eom5iH_kLjvkm": {
+      "chi_tiet": "85%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "23:52:39 14/04/2026"
+    },
+    "-OqBw8cEuNXZwTNx4p_r": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:01:11 15/04/2026"
+    },
+    "-OqBw8fq4__aBLyPDMjj": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:01:11 15/04/2026"
+    },
+    "-OqBw9D8hhsuyGSgf7y4": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:01:13 15/04/2026"
+    },
+    "-OqBwlUbWco3Ufc6Sd_J": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:03:54 15/04/2026"
+    },
+    "-OqBwlfUsyrSLBhIirVg": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:03:55 15/04/2026"
+    },
+    "-OqBwmHDTuzdMWsmLcfn": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:03:58 15/04/2026"
+    },
+    "-OqBwraJcL0FhqJrQqLS": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:04:19 15/04/2026"
+    },
+    "-OqBwrwKK-qWCrdbYImi": {
+      "chi_tiet": "100%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:04:21 15/04/2026"
+    },
+    "-OqBzCTLUXo3PGp3tBjm": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:14:33 15/04/2026"
+    },
+    "-OqC-dQLVV3sK1ECmxIk": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:20:50 15/04/2026"
+    },
+    "-OqC-q4-c7cSXSV_0ieh": {
+      "chi_tiet": "100%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:21:41 15/04/2026"
+    },
+    "-OqC0sjDsgjzQdaxIee0": {
+      "chi_tiet": "18%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:26:15 15/04/2026"
+    },
+    "-OqC13DYlDhjKxDoALd4": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:27:02 15/04/2026"
+    },
+    "-OqC2b8iZwzLCpKjt-ql": {
+      "chi_tiet": "0%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:33:47 15/04/2026"
+    },
+    "-OqC8s-D8iGoFHB4I6LB": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:01:09 15/04/2026"
+    },
+    "-OqC9JI-u40L8MkyUjoB": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "01:03:05 15/04/2026"
+    },
+    "-OqC9Q6fJUAQQ3t0NKzp": {
+      "chi_tiet": "active:100% still:16% noPerson:0% lux:184",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "01:03:32 15/04/2026"
+    },
+    "-OqC9Tzi8VV7bmG6R9kG": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "01:03:49 15/04/2026"
+    },
+    "-OqC9cUVXV4Z3fZC6kal": {
+      "chi_tiet": "active:100% still:16% noPerson:0% lux:184",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:04:27 15/04/2026"
+    },
+    "-OqC9eXEJehadRTaxx-o": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:04:36 15/04/2026"
+    },
+    "-OqCA1Xl5sxUjBk1JVBS": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:06:14 15/04/2026"
+    },
+    "-OqCA760L9rnbR-coZSC": {
+      "chi_tiet": "3%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:06:37 15/04/2026"
+    },
+    "-OqCA79wOcriJhl2_D1j": {
+      "chi_tiet": "36%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "01:06:37 15/04/2026"
+    },
+    "-OqDp4P0EFcjFWbI6COe": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "08:49:33 15/04/2026"
+    },
+    "-OqFJnMC1lqN1mTJqLT0": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "15:47:45 15/04/2026"
+    },
+    "-OqFJsTBJ0HYCFYR55Ht": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "15:48:07 15/04/2026"
+    },
+    "-OqFKbpgPLtoNEbwedlo": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:184",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "15:51:21 15/04/2026"
+    },
+    "-OqFMzgM1i020QVTg3vg": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:01:43 15/04/2026"
+    },
+    "-OqFN-6JhrIGT7kRtaH0": {
+      "chi_tiet": "100%",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:01:45 15/04/2026"
+    },
+    "-OqFN0wnaYha0qXZPIjp": {
+      "chi_tiet": "tắt đèn",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:01:53 15/04/2026"
+    },
+    "-OqFN0woNLg1nYgugou-": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:01:53 15/04/2026"
+    },
+    "-OqFN38tFQydMsBuMjyE": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:02:02 15/04/2026"
+    },
+    "-OqFQQGweERkxt7isY49": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:16:41 15/04/2026"
+    },
+    "-OqFSXBslh48qw5nhOdu": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:54",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:25:55 15/04/2026"
+    },
+    "-OqFSXj30_76FnJjix3Z": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:0",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:25:58 15/04/2026"
+    },
+    "-OqFSaXoLQr9PBwaiIBO": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:26:13 15/04/2026"
+    },
+    "-OqFTUbFC08619cVkWO3": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "16:30:07 15/04/2026"
+    },
+    "-OqGC6alM3XPaMTYJQ24": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:53:49 15/04/2026"
+    },
+    "-OqGCG8UrU61aGyFUWvw": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:54:28 15/04/2026"
+    },
+    "-OqGCIvf7DpV0mVAWact": {
+      "chi_tiet": "đèn tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:54:40 15/04/2026"
+    },
+    "-OqGCIvkvXOrTCeR3Ucb": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:54:40 15/04/2026"
+    },
+    "-OqGCKU4cb4hFK5WbWaX": {
+      "chi_tiet": "xa nhau",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:54:46 15/04/2026"
+    },
+    "-OqGCNi0mOC-yP6RWv_i": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:54:59 15/04/2026"
+    },
+    "-OqGCO2Nf_8XkDR5t2fs": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:01 15/04/2026"
+    },
+    "-OqGCOBTm6QvysnGgjPs": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:01 15/04/2026"
+    },
+    "-OqGCOGSBI6N0sZ0l8cm": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:02 15/04/2026"
+    },
+    "-OqGCOKIfT72ljCf9J0U": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:02 15/04/2026"
+    },
+    "-OqGCPBMxuNKsa145XSr": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:05 15/04/2026"
+    },
+    "-OqGCPL7W1-q_imNULhO": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:06 15/04/2026"
+    },
+    "-OqGCPPvIZ-7D3c-Bd_f": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:06 15/04/2026"
+    },
+    "-OqGCPSnntR5aJuZjNGU": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:06 15/04/2026"
+    },
+    "-OqGCPVSKIrVEeGDqI72": {
+      "chi_tiet": "active:100% still:76% noPerson:11% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "19:55:07 15/04/2026"
+    },
+    "-OqGDGYev77-E8jz_RRY": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "19:58:52 15/04/2026"
+    },
+    "-OqGG8QSfK6xAS4kZb3q": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "20:11:25 15/04/2026"
+    },
+    "-OqGGW8KACDxldwxkrQs": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "20:13:02 15/04/2026"
+    },
+    "-OqGGfmvDen9-BWNZpLv": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "20:13:46 15/04/2026"
+    },
+    "-OqGGoBEkyp_Az2bpy8W": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "20:14:20 15/04/2026"
+    },
+    "-OqGHUk_zNjejLSN4iAS": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "20:17:19 15/04/2026"
+    },
+    "-OqGICCa4vojycaPHEpM": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "20:20:25 15/04/2026"
+    },
+    "-OqG_mpAgH0vB6BZyoZj": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "21:41:38 15/04/2026"
+    },
+    "-OqG_np6rfAYbQhmpTPI": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "21:41:42 15/04/2026"
+    },
+    "-OqG_oQ6Wm2P1aXKmOOH": {
+      "chi_tiet": "tat",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "21:41:44 15/04/2026"
+    },
+    "-OqGfsdbxo57IyLuvFt2": {
+      "chi_tiet": "bat",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "22:08:14 15/04/2026"
+    },
+    "-OqGwmcPXJHaFH4X9O-h": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "23:22:06 15/04/2026"
+    },
+    "-OqMHg-cTBXX4ybgpcJd": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:15:52 17/04/2026"
+    },
+    "-OqMMCjuRkJBFMQsgw51": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:35:39 17/04/2026"
+    },
+    "-OqMNGFvui3w7t-evtx6": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:40:16 17/04/2026"
+    },
+    "-OqMNOWvDiZCwyNssmXx": {
+      "chi_tiet": "tắt chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "00:40:49 17/04/2026"
+    },
+    "-OqMNX-8raML8JlxpOd9": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:24 17/04/2026"
+    },
+    "-OqMNXFuHyx60VYHHCfh": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:25 17/04/2026"
+    },
+    "-OqMNXODz6RcuJvYmyUA": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:26 17/04/2026"
+    },
+    "-OqMNXWGaw_pmF6UAt5d": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:26 17/04/2026"
+    },
+    "-OqMNXcA32cUoP3OtIch": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:27 17/04/2026"
+    },
+    "-OqMNYJSXZKNYzhNIWrO": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:30 17/04/2026"
+    },
+    "-OqMNbcu-tuThf-q1spU": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "00:41:47 17/04/2026"
+    },
+    "-OqODWUKvZOXmQysmqF6": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "09:16:56 17/04/2026"
+    },
+    "-OqODZS3UOvtBfh18_U2": {
+      "chi_tiet": "tắt chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "09:17:08 17/04/2026"
+    },
+    "-OqODbXDM_0nx6Q4GLug": {
+      "chi_tiet": "chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "09:17:21 17/04/2026"
+    },
+    "-OqODpeeDz_8ZgoIwsf2": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:19 17/04/2026"
+    },
+    "-OqODqp6JFBIEwGRyJhq": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:23 17/04/2026"
+    },
+    "-OqODqzM301dx_RMQmmw": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:24 17/04/2026"
+    },
+    "-OqODtCKjd9-hd8DtCnI": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:33 17/04/2026"
+    },
+    "-OqODxx0oieaZKQ3jJdO": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:53 17/04/2026"
+    },
+    "-OqODyAD_EboeRNBrKRY": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "09:18:54 17/04/2026"
+    },
+    "-OqOW3bcvYh1rfhr1NOt": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:37:58 17/04/2026"
+    },
+    "-OqOWEYV7NafR9nxvv1D": {
+      "chi_tiet": "active:100% still:76% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:38:43 17/04/2026"
+    },
+    "-OqOWORt0J7eGPeDyqKf": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:39:24 17/04/2026"
+    },
+    "-OqOWSdteiA-lSpz9dnZ": {
+      "chi_tiet": "tat (lux:2)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:39:41 17/04/2026"
+    },
+    "-OqOY-c_snTDABonJ2Nc": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:46:26 17/04/2026"
+    },
+    "-OqOY-mYpoaGf-O50NoB": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:46:27 17/04/2026"
+    },
+    "-OqOYdRye20kQH9-HvoV": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:49:14 17/04/2026"
+    },
+    "-OqOYq6PugIOB_pr0HtJ": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:50:06 17/04/2026"
+    },
+    "-OqOYz1JVy0wRS-GmD-G": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:42 17/04/2026"
+    },
+    "-OqOZ1VqrBArvp54HBGz": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:56 17/04/2026"
+    },
+    "-OqOZ1ds-km5xNDckdIq": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:57 17/04/2026"
+    },
+    "-OqOZ1n-Q03zHwpcNBI-": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:57 17/04/2026"
+    },
+    "-OqOZ1vMVNPaC0-lwimE": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:58 17/04/2026"
+    },
+    "-OqOZ21BWjGtQathOvA7": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:58 17/04/2026"
+    },
+    "-OqOZ28R75R11xNcXGaH": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:59 17/04/2026"
+    },
+    "-OqOZ2Gxnxi_2sYf0ayM": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:50:59 17/04/2026"
+    },
+    "-OqOZ2fRyIZaxbqbswK5": {
+      "chi_tiet": "26% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:01 17/04/2026"
+    },
+    "-OqOZ2rgRvXKhjMNcG5V": {
+      "chi_tiet": "45% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:02 17/04/2026"
+    },
+    "-OqOZ37ryDNhHJE8uTah": {
+      "chi_tiet": "100% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:03 17/04/2026"
+    },
+    "-OqOZ3oPqihMiGcQvION": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:06 17/04/2026"
+    },
+    "-OqOZ3xvH_yXRGNZiCWI": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:06 17/04/2026"
+    },
+    "-OqOZ42PxBeg__7Hawz3": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:07 17/04/2026"
+    },
+    "-OqOZ49ZCCPYOIILgeLJ": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:07 17/04/2026"
+    },
+    "-OqOZ4DStT7tNiN_cYuv": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:07 17/04/2026"
+    },
+    "-OqOZ4GcPejWY-GKdTAA": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:08 17/04/2026"
+    },
+    "-OqOZ4KqMqR2POnTW3JO": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:08 17/04/2026"
+    },
+    "-OqOZ4NgRii-q_g8TrO2": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:08 17/04/2026"
+    },
+    "-OqOZ4R6ALQbcbB3ZUXs": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:08 17/04/2026"
+    },
+    "-OqOZ4UL84G_4cvd_cfy": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:08 17/04/2026"
+    },
+    "-OqOZ4Xq8yVCGZBeGaww": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:09 17/04/2026"
+    },
+    "-OqOZ4a12w6T2sEA87x4": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:09 17/04/2026"
+    },
+    "-OqOZ4dNf0OZzBJbUTA6": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:09 17/04/2026"
+    },
+    "-OqOZ4isONya8CoEmtFQ": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:09 17/04/2026"
+    },
+    "-OqOZ4qbC6E-Pa-ELGKE": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:10 17/04/2026"
+    },
+    "-OqOZ4yw-bAmaINhc9LO": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:11 17/04/2026"
+    },
+    "-OqOZ55gLfUxsbK_d8uM": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:11 17/04/2026"
+    },
+    "-OqOZ58qQqEbKsiLM5Dy": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:11 17/04/2026"
+    },
+    "-OqOZ5C0DGccK4VoEJcb": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:11 17/04/2026"
+    },
+    "-OqOZ5Es5TaWGllUIaNH": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:12 17/04/2026"
+    },
+    "-OqOZ5KdZJNbrgZfdBFa": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:12 17/04/2026"
+    },
+    "-OqOZ5O7rY1E80M5d4I1": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:12 17/04/2026"
+    },
+    "-OqOZ5QmxxsUdP--9DCe": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:12 17/04/2026"
+    },
+    "-OqOZ5TZ5s37g2QfUn50": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:13 17/04/2026"
+    },
+    "-OqOZ5WOTHISWBYZltcz": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:13 17/04/2026"
+    },
+    "-OqOZ5ZkfSHEt_u4jN3p": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:13 17/04/2026"
+    },
+    "-OqOZ5hapk1lBkg74J3q": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:14 17/04/2026"
+    },
+    "-OqOZ5qGfcvptz09bxyc": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:14 17/04/2026"
+    },
+    "-OqOZ66MBlPPpaTf-yFp": {
+      "chi_tiet": "50% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:15 17/04/2026"
+    },
+    "-OqOZ6EwtP4vvJAYILav": {
+      "chi_tiet": "100% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:16 17/04/2026"
+    },
+    "-OqOZ6bRloKGcHQSAaMF": {
+      "chi_tiet": "100% (lux:2)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:17 17/04/2026"
+    },
+    "-OqOZ728rHnugog_6yxH": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:19 17/04/2026"
+    },
+    "-OqOZ79LQxn74Fhrf9at": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:19 17/04/2026"
+    },
+    "-OqOZ7CHp6Vqb-n3I4nc": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:20 17/04/2026"
+    },
+    "-OqOZ7FGp7ifph5lLS3Y": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:20 17/04/2026"
+    },
+    "-OqOZ7O2BmFh-CbPQHnY": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:20 17/04/2026"
+    },
+    "-OqOZ7RIAkY30gKcqFTP": {
+      "chi_tiet": "bat (lux:2)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:51:21 17/04/2026"
+    },
+    "-OqOZJeu5vtmUXSk82Go": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:52:11 17/04/2026"
+    },
+    "-OqOZLJjO2DRutAlZtYu": {
+      "chi_tiet": "[Thông tin] Độ sáng bright_active hiện tại là 100% khá cao, hãy cân nhắc giảm xuống 80% để tiết kiệm điện năng mà vẫn đảm bảo đủ ánh sáng sinh hoạt.",
+      "hanh_dong": "DE_XUAT_AI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:52:17 17/04/2026"
+    },
+    "-OqOZLKenqhUwymxxNUD": {
+      "chi_tiet": "[Quan trọng] Độ sáng khi có người ngồi yên (bright_still) đang ở mức 50%, bạn có thể giảm xuống 30% để tối ưu hóa điện năng tiêu thụ trong thời gian dài không di chuyển.",
+      "hanh_dong": "DE_XUAT_AI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:52:18 17/04/2026"
+    },
+    "-OqOZVu62ZR6b0WKwGL6": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:53:01 17/04/2026"
+    },
+    "-OqOZYHCoKv1RPv4PYzG": {
+      "chi_tiet": "bật chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:53:11 17/04/2026"
+    },
+    "-OqOZ_GlrYOlqB3ItqVw": {
+      "chi_tiet": "tắt chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:53:19 17/04/2026"
+    },
+    "-OqOZh4Hg4891UfwNDnZ": {
+      "chi_tiet": "bật đèn 50%",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:53:51 17/04/2026"
+    },
+    "-OqOZmcyHLVVCd6rF0RM": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "10:54:13 17/04/2026"
+    },
+    "-OqO_8eUcoxLRO8IpcaD": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:55:48 17/04/2026"
+    },
+    "-OqO_AWODrl6hJ8ZcNh7": {
+      "chi_tiet": "bat (lux:78)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:55:55 17/04/2026"
+    },
+    "-OqO_BIlwYmLswDSwubU": {
+      "chi_tiet": "tat (lux:78)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:55:59 17/04/2026"
+    },
+    "-OqO_BztPdKnb__6RITs": {
+      "chi_tiet": "3% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:01 17/04/2026"
+    },
+    "-OqO_C1pxYxuk6YOZbb-": {
+      "chi_tiet": "21% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:02 17/04/2026"
+    },
+    "-OqO_DM6aaHrNDVoFCLq": {
+      "chi_tiet": "95% (lux:57)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:07 17/04/2026"
+    },
+    "-OqO_FsqCW5Bnn9Kkrzc": {
+      "chi_tiet": "76% (lux:93)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:17 17/04/2026"
+    },
+    "-OqO_GKo2h9bp3n8VHy3": {
+      "chi_tiet": "0% (lux:67)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:19 17/04/2026"
+    },
+    "-OqO_IKKZi0A8U8lOV6M": {
+      "chi_tiet": "đèn sáng 5%",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:27 17/04/2026"
+    },
+    "-OqO_J9OEn4JKdkC6q0M": {
+      "chi_tiet": "bat (lux:50)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:31 17/04/2026"
+    },
+    "-OqO_NC1XZEHQ1EKXkv4": {
+      "chi_tiet": "tat (lux:66)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:47 17/04/2026"
+    },
+    "-OqO_NVNQ59eWnddxxPg": {
+      "chi_tiet": "100% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:49 17/04/2026"
+    },
+    "-OqO_O3JnNsTyPwMuaTg": {
+      "chi_tiet": "0% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:51 17/04/2026"
+    },
+    "-OqO_OGIYZHcRTjBuQWr": {
+      "chi_tiet": "0% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:52 17/04/2026"
+    },
+    "-OqO_OPQiSZu4_34UmcQ": {
+      "chi_tiet": "0% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:52 17/04/2026"
+    },
+    "-OqO_ORkZGsQymfd_yAZ": {
+      "chi_tiet": "0% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:52 17/04/2026"
+    },
+    "-OqO_OUIESHUaHi-BmOl": {
+      "chi_tiet": "0% (lux:66)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_OXRatlEbULUiCFQ": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_O_9M2m0P1v7vOWa": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_Obi6hGhWvM1R1cX": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_OeKxru00pton3dJ": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_OhAoO6aFMP8ge-h": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:53 17/04/2026"
+    },
+    "-OqO_OjJu6SmyYLKNUVS": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:54 17/04/2026"
+    },
+    "-OqO_OoKOEDLtvOsSk6l": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:54 17/04/2026"
+    },
+    "-OqO_OrVg4_WnyfOkHhV": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:54 17/04/2026"
+    },
+    "-OqO_OuAlYTQXIye9U66": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:54 17/04/2026"
+    },
+    "-OqO_Ow_JfpsWThA6aen": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:54 17/04/2026"
+    },
+    "-OqO_OzDNpa_pSPnQytT": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:55 17/04/2026"
+    },
+    "-OqO_P6Wiv2EtTXG9TLd": {
+      "chi_tiet": "50% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:55 17/04/2026"
+    },
+    "-OqO_PBqlft93vpIQCYy": {
+      "chi_tiet": "100% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:55 17/04/2026"
+    },
+    "-OqO_PMYHKgwUlxl5pd4": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:56 17/04/2026"
+    },
+    "-OqO_Pmw7FYsjFeB9FR6": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:58 17/04/2026"
+    },
+    "-OqO_Pq1lrVKDgHusA_3": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:58 17/04/2026"
+    },
+    "-OqO_Psv4ANRnBFwDFTP": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:58 17/04/2026"
+    },
+    "-OqO_Pvrk9AhfeSb02Cb": {
+      "chi_tiet": "0% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:58 17/04/2026"
+    },
+    "-OqO_PyprEzEl8CkEFMv": {
+      "chi_tiet": "0% (lux:51)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:59 17/04/2026"
+    },
+    "-OqO_Q0Gf9TYuii1ojwb": {
+      "chi_tiet": "0% (lux:51)",
+      "hanh_dong": "CHINH_DO_SANG_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:56:59 17/04/2026"
+    },
+    "-OqO_RWSM2fLkYRPPS0h": {
+      "chi_tiet": "bat (lux:62)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:57:05 17/04/2026"
+    },
+    "-OqO_S0roBhdCtcJ5q6U": {
+      "chi_tiet": "tat (lux:62)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:57:07 17/04/2026"
+    },
+    "-OqO_SNNgI4NA_03G2yW": {
+      "chi_tiet": "100% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:57:08 17/04/2026"
+    },
+    "-OqO_STd9cfb48kk4kU9": {
+      "chi_tiet": "0% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:57:09 17/04/2026"
+    },
+    "-OqO_rj2Y2L4ztq2Rr-U": {
+      "chi_tiet": "bat (lux:66)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:58:56 17/04/2026"
+    },
+    "-OqO_sNjVzlxGwhC42Gi": {
+      "chi_tiet": "tat (lux:66)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:58:59 17/04/2026"
+    },
+    "-OqO_slG8uHxkVPNwAwM": {
+      "chi_tiet": "59% (lux:57)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:01 17/04/2026"
+    },
+    "-OqO_tm48QpG-5gRDoT1": {
+      "chi_tiet": "14% (lux:57)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:05 17/04/2026"
+    },
+    "-OqO_uM782td-_aKG0Gh": {
+      "chi_tiet": "74% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:07 17/04/2026"
+    },
+    "-OqO_uhwvEy4n8y-7EJp": {
+      "chi_tiet": "10% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:09 17/04/2026"
+    },
+    "-OqO_uxNtEPtwLUi1bgu": {
+      "chi_tiet": "100% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:10 17/04/2026"
+    },
+    "-OqO_vHVU0iYTA1qUEmC": {
+      "chi_tiet": "43% (lux:62)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:11 17/04/2026"
+    },
+    "-OqO_vRdLQ98Vl-TDkwD": {
+      "chi_tiet": "20% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:12 17/04/2026"
+    },
+    "-OqO_v_l2phAfx_PCfg6": {
+      "chi_tiet": "50% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:12 17/04/2026"
+    },
+    "-OqO_vhqs6xQ2qkpxaqT": {
+      "chi_tiet": "68% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:13 17/04/2026"
+    },
+    "-OqO_vnIV63PiOvWqqx8": {
+      "chi_tiet": "81% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:13 17/04/2026"
+    },
+    "-OqO_vshaxCkZvZOrFsw": {
+      "chi_tiet": "92% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:13 17/04/2026"
+    },
+    "-OqO_vyxW7I5PzLrysnX": {
+      "chi_tiet": "100% (lux:73)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:14 17/04/2026"
+    },
+    "-OqO_yzbJ6ETkhAR105C": {
+      "chi_tiet": "bat (lux:54)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:26 17/04/2026"
+    },
+    "-OqOa3g0lTEyElov49sH": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:49 17/04/2026"
+    },
+    "-OqOa49z5nP4E5gv9sRm": {
+      "chi_tiet": "tat (lux:57)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "10:59:51 17/04/2026"
+    },
+    "-OqOaAJQuU8gvWhzfZjK": {
+      "chi_tiet": "0% (lux:57)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:00:17 17/04/2026"
+    },
+    "-OqOaFHbeKR4T98uiQdH": {
+      "chi_tiet": "admin@gmail.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:37 17/04/2026"
+    },
+    "-OqOaFVvlzq_sWPdHJ0o": {
+      "chi_tiet": "bat (lux:67)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:38 17/04/2026"
+    },
+    "-OqOaFeVxgc8ImlvlVa2": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:39 17/04/2026"
+    },
+    "-OqOaG8N_8kZlSAOv-7E": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:41 17/04/2026"
+    },
+    "-OqOaGHA2vls3HuYN9Gw": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:41 17/04/2026"
+    },
+    "-OqOaGMfv8WDnwoX02CV": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:41 17/04/2026"
+    },
+    "-OqOaGT2xXlsGV4suazb": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:42 17/04/2026"
+    },
+    "-OqOaGZiivSBbEt9Rmrr": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:42 17/04/2026"
+    },
+    "-OqOaGefigzL8SdZj0Jd": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:43 17/04/2026"
+    },
+    "-OqOaGh_zPIn-4DKtugI": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:43 17/04/2026"
+    },
+    "-OqOaGkm4hU8bh5AXnw5": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:43 17/04/2026"
+    },
+    "-OqOaGnO7GHG83lcjcLD": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:43 17/04/2026"
+    },
+    "-OqOaGqP037Pdx9w4pSp": {
+      "chi_tiet": "bat (lux:56)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:43 17/04/2026"
+    },
+    "-OqOaHk6Do1doI-rcTT4": {
+      "chi_tiet": "bật chế độ tự động",
+      "hanh_dong": "LENH_GIONG_NOI",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:47 17/04/2026"
+    },
+    "-OqOaHkFX6RlRJjYGFfb": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:47 17/04/2026"
+    },
+    "-OqOaJHBzq1YoKT9Tp-j": {
+      "chi_tiet": "bat (lux:67)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:53 17/04/2026"
+    },
+    "-OqOaJdmZKFhMyIXvsH3": {
+      "chi_tiet": "bat (lux:67)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:55 17/04/2026"
+    },
+    "-OqOaJkiCDbnRE_l44IY": {
+      "chi_tiet": "bat (lux:67)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:55 17/04/2026"
+    },
+    "-OqOaJoeZCuFpFuouR72": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:56 17/04/2026"
+    },
+    "-OqOaJrGUveEuEADBe56": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:56 17/04/2026"
+    },
+    "-OqOaJuNlq-7q89aHOno": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:56 17/04/2026"
+    },
+    "-OqOaJxQtFAMuM9GUBtK": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:56 17/04/2026"
+    },
+    "-OqOaK-Q661lQDd45avL": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:56 17/04/2026"
+    },
+    "-OqOaK2CL7Glsvsa38kS": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaK5B7dPUHuuOhZ9n": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaK8HxvOUB11UTlGk": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaKAwaO-wZCWyrGwr": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaKEGGbkJ8_WRy3Ue": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaKHAIou_Wa9hbfmM": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:57 17/04/2026"
+    },
+    "-OqOaKKTYLpcIrM7pDca": {
+      "chi_tiet": "bat (lux:71)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:00:58 17/04/2026"
+    },
+    "-OqOaN_VWO-kqSUUl6WJ": {
+      "chi_tiet": "bat (lux:59)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:11 17/04/2026"
+    },
+    "-OqOaNgp3QQI-Jbuu7yK": {
+      "chi_tiet": "bat (lux:59)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:11 17/04/2026"
+    },
+    "-OqOaQNaroJYhSeQU3hc": {
+      "chi_tiet": "bat (lux:74)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:22 17/04/2026"
+    },
+    "-OqOaQZQkEvkl1RWoTol": {
+      "chi_tiet": "bat (lux:74)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:23 17/04/2026"
+    },
+    "-OqOaQm4hwJII-TyA1TL": {
+      "chi_tiet": "bat (lux:74)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:24 17/04/2026"
+    },
+    "-OqOaQuhUy8ItJxMa6mC": {
+      "chi_tiet": "bat (lux:63)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:25 17/04/2026"
+    },
+    "-OqOaR224NCo44PWLLBm": {
+      "chi_tiet": "bat (lux:63)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@gmail.com",
+      "thoi_gian": "11:01:25 17/04/2026"
+    },
+    "-OqOaT97jvIfFdiJE3-5": {
+      "chi_tiet": "admin@nhom10.com",
+      "hanh_dong": "DANG_NHAP",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:34 17/04/2026"
+    },
+    "-OqOaTYEGhCLG03gcsip": {
+      "chi_tiet": "bat (lux:57)",
+      "hanh_dong": "CHE_DO_TU_DONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:35 17/04/2026"
+    },
+    "-OqOaU3yN0mqMpOUNbaL": {
+      "chi_tiet": "tat (lux:59)",
+      "hanh_dong": "CHE_DO_THU_CONG",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:38 17/04/2026"
+    },
+    "-OqOaUWX6KYf7e-8O_Fw": {
+      "chi_tiet": "86% (lux:59)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:39 17/04/2026"
+    },
+    "-OqOaVVi_G9nyFPOcr25": {
+      "chi_tiet": "8% (lux:74)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:43 17/04/2026"
+    },
+    "-OqOaVbYrXlgZDUbzUNZ": {
+      "chi_tiet": "100% (lux:74)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:44 17/04/2026"
+    },
+    "-OqOaWDLN9VIdv0BU8zu": {
+      "chi_tiet": "63% (lux:74)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:46 17/04/2026"
+    },
+    "-OqOaWs44sMMzR4uKAXE": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:49 17/04/2026"
+    },
+    "-OqOaXXowmEetaKpDPyz": {
+      "chi_tiet": "59% (lux:70)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:52 17/04/2026"
+    },
+    "-OqOaXbVSrxlGnrvcWwz": {
+      "chi_tiet": "4% (lux:70)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:52 17/04/2026"
+    },
+    "-OqOaY46aXj3_pKQ1vyc": {
+      "chi_tiet": "64% (lux:60)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:01:54 17/04/2026"
+    },
+    "-OqOb381qwiXalHn-5o0": {
+      "chi_tiet": "0% (lux:71)",
+      "hanh_dong": "CHINH_DO_SANG_SLIDER",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:04:09 17/04/2026"
+    },
+    "-OqOb6c13-WQtXgV5A7Q": {
+      "chi_tiet": "active:100% still:50% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:04:24 17/04/2026"
+    },
+    "-OqOb7GMMJnzINnzzqXY": {
+      "chi_tiet": "active:58% still:50% noPerson:0% lux:59",
+      "hanh_dong": "LUU_CAI_DAT",
+      "nguoi_dung": "admin@nhom10.com",
+      "thoi_gian": "11:04:26 17/04/2026"
+    }
+  },
+  "SmartNode_01": {
+    "history_energy": {
+      "-OqC7kPp0CAUx0ncJw2l": {
+        "E_wh": 0.057161801,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqC7zlgdwYmuX7JYgRb": {
+        "E_wh": 0.057161976,
+        "time": "2026-04-15 00:57:18"
+      },
+      "-OqC8E80X0mirGxAtCkm": {
+        "E_wh": 0.057162139,
+        "time": "2026-04-15 00:58:21"
+      },
+      "-OqC8TeusLUZlarH-Aug": {
+        "E_wh": 0.057162303,
+        "time": "2026-04-15 00:59:25"
+      },
+      "-OqC8i33HBxo6oicCQi9": {
+        "E_wh": 0.057162461,
+        "time": "2026-04-15 01:00:28"
+      },
+      "-OqC8xVeiRpEqIfFpn89": {
+        "E_wh": 0.05716262,
+        "time": "2026-04-15 01:01:31"
+      },
+      "-OqC9C2-6U_cJQhgMKIK": {
+        "E_wh": 0.057162789,
+        "time": "2026-04-15 01:02:35"
+      },
+      "-OqC9RQ2DhiW1RSyCA0I": {
+        "E_wh": 0.057162948,
+        "time": "2026-04-15 01:03:38"
+      },
+      "-OqC9flsgj3eJ1zL0r7Y": {
+        "E_wh": 0.057163113,
+        "time": "2026-04-15 01:04:41"
+      },
+      "-OqC9vGl6cvI4KZMOqnN": {
+        "E_wh": 0.057163254,
+        "time": "2026-04-15 01:05:44"
+      },
+      "-OqFJDPstTCZu5jAkTaD": {
+        "E_wh": 0.057163262,
+        "time": "2026-04-15 15:45:14"
+      },
+      "-OqFJSo_9uMwh02R-st7": {
+        "E_wh": 0.057432981,
+        "time": "2026-04-15 15:46:17"
+      },
+      "-OqFJhC6fB26-GvZnQUI": {
+        "E_wh": 0.057772832,
+        "time": "2026-04-15 15:47:20"
+      },
+      "-OqFJwiBrbpVBwhbJa2I": {
+        "E_wh": 0.058101777,
+        "time": "2026-04-15 15:48:23"
+      },
+      "-OqFKB6_jS48GH20cpE6": {
+        "E_wh": 0.058318687,
+        "time": "2026-04-15 15:49:26"
+      },
+      "-OqFKQTLSIVpcAnJqcSp": {
+        "E_wh": 0.058771644,
+        "time": "2026-04-15 15:50:29"
+      },
+      "-OqFKezzJDM0K-NanaJe": {
+        "E_wh": 0.059166397,
+        "time": "2026-04-15 15:51:33"
+      },
+      "-OqFKuNemhG-sutjxd7Z": {
+        "E_wh": 0.059648656,
+        "time": "2026-04-15 15:52:36"
+      },
+      "-OqFL8mmi-ipAPEtRTFl": {
+        "E_wh": 0.060171516,
+        "time": "2026-04-15 15:53:39"
+      },
+      "-OqFLOGnLoQ799PnqFUp": {
+        "E_wh": 0.060697876,
+        "time": "2026-04-15 15:54:42"
+      },
+      "-OqFLcmz9k0akekBcbKr": {
+        "E_wh": 0.061288585,
+        "time": "2026-04-15 15:55:46"
+      },
+      "-OqFLs8BsOOIAifHGxCP": {
+        "E_wh": 0.061831472,
+        "time": "2026-04-15 15:56:49"
+      },
+      "-OqFM6kB1hzKM40n1sQr": {
+        "E_wh": 0.062377076,
+        "time": "2026-04-15 15:57:53"
+      },
+      "-OqFMMFjXuM3zcG8jZ2I": {
+        "E_wh": 0.062921371,
+        "time": "2026-04-15 15:58:56"
+      },
+      "-OqFMahwlUZFg1VDG4oR": {
+        "E_wh": 0.063524818,
+        "time": "2026-04-15 16:00:00"
+      },
+      "-OqFMqGohCsOlJ5pgba1": {
+        "E_wh": 0.06408716,
+        "time": "2026-04-15 16:01:03"
+      },
+      "-OqFN4hxGu390lPmmMtb": {
+        "E_wh": 0.064685451,
+        "time": "2026-04-15 16:02:06"
+      },
+      "-OqFNK5UP9fTRKpReBTd": {
+        "E_wh": 0.065166759,
+        "time": "2026-04-15 16:03:10"
+      },
+      "-OqFNZhEG5a9w4dNJZfk": {
+        "E_wh": 0.065748068,
+        "time": "2026-04-15 16:04:14"
+      },
+      "-OqFNo3tmS5OlVoIYx3B": {
+        "E_wh": 0.066307303,
+        "time": "2026-04-15 16:05:17"
+      },
+      "-OqFO2WAHpaMhe2VfuoA": {
+        "E_wh": 0.066867972,
+        "time": "2026-04-15 16:06:20"
+      },
+      "-OqFOI2iqxCooZgZxFJU": {
+        "E_wh": 0.067423957,
+        "time": "2026-04-15 16:07:23"
+      },
+      "-OqFOXUhqQE8Y9mW8_y1": {
+        "E_wh": 0.067982853,
+        "time": "2026-04-15 16:08:27"
+      },
+      "-OqFOlxLwKaUotpBM6rv": {
+        "E_wh": 0.068626501,
+        "time": "2026-04-15 16:09:30"
+      },
+      "-OqFP0baAj-JaLUdJWll": {
+        "E_wh": 0.0692038,
+        "time": "2026-04-15 16:10:34"
+      },
+      "-OqFPG7rxGwnK_77ku7g": {
+        "E_wh": 0.069796363,
+        "time": "2026-04-15 16:11:38"
+      },
+      "-OqFPVXqnAur_l14dU9t": {
+        "E_wh": 0.070364363,
+        "time": "2026-04-15 16:12:41"
+      },
+      "-OqFPk0pFMvGmrChpP_I": {
+        "E_wh": 0.070932785,
+        "time": "2026-04-15 16:13:44"
+      },
+      "-OqFPzTdDvVTzgrJ5EDf": {
+        "E_wh": 0.071504102,
+        "time": "2026-04-15 16:14:48"
+      },
+      "-OqFQE06KTEnPHvcq-tD": {
+        "E_wh": 0.072100439,
+        "time": "2026-04-15 16:15:51"
+      },
+      "-OqFQTUIVG35uLQIJQnZ": {
+        "E_wh": 0.072752053,
+        "time": "2026-04-15 16:16:55"
+      },
+      "-OqFQhqU_8Yc1YqzgjZ-": {
+        "E_wh": 0.073239365,
+        "time": "2026-04-15 16:17:57"
+      },
+      "-OqFQxNFyXDoN22v65al": {
+        "E_wh": 0.073667653,
+        "time": "2026-04-15 16:19:01"
+      },
+      "-OqFRBp4QGxuqkUU-uZn": {
+        "E_wh": 0.074175663,
+        "time": "2026-04-15 16:20:04"
+      },
+      "-OqFRRDe14U9rqXEBwrs": {
+        "E_wh": 0.074772222,
+        "time": "2026-04-15 16:21:07"
+      },
+      "-OqFRfmqJFjxaz4XMwSo": {
+        "E_wh": 0.075396788,
+        "time": "2026-04-15 16:22:11"
+      },
+      "-OqFRvBypbx3RxP3goOI": {
+        "E_wh": 0.075963826,
+        "time": "2026-04-15 16:23:14"
+      },
+      "-OqFS9_me7tWZidBxAek": {
+        "E_wh": 0.076524799,
+        "time": "2026-04-15 16:24:17"
+      },
+      "-OqFSP4d82Yl_hiphVBa": {
+        "E_wh": 0.077124588,
+        "time": "2026-04-15 16:25:21"
+      },
+      "-OqFSdXA2zcnXH5kgm-D": {
+        "E_wh": 0.077321829,
+        "time": "2026-04-15 16:26:24"
+      },
+      "-OqFSt1saC0OQMRyQhHg": {
+        "E_wh": 0.077761786,
+        "time": "2026-04-15 16:27:28"
+      },
+      "-OqFT7bOnin1VtiXefCD": {
+        "E_wh": 0.078306545,
+        "time": "2026-04-15 16:28:31"
+      },
+      "-OqFTN0821c1gXYBwYJS": {
+        "E_wh": 0.07885563,
+        "time": "2026-04-15 16:29:34"
+      },
+      "-OqFTbPfnpEq7OkgEkbp": {
+        "E_wh": 0.07923123,
+        "time": "2026-04-15 16:30:38"
+      },
+      "-OqFTqzIRjuTP3snGyzm": {
+        "E_wh": 0.079242133,
+        "time": "2026-04-15 16:31:41"
+      },
+      "-OqFU5Vp8kjb8bqyAqFr": {
+        "E_wh": 0.079242377,
+        "time": "2026-04-15 16:32:45"
+      },
+      "-OqFUKyJwMnAKzoqtUbI": {
+        "E_wh": 0.079242527,
+        "time": "2026-04-15 16:33:48"
+      },
+      "-OqFU_aeMhigbyZrdTM0": {
+        "E_wh": 0.079242691,
+        "time": "2026-04-15 16:34:52"
+      },
+      "-OqFUp-WngDAbdfUiIhg": {
+        "E_wh": 0.079242866,
+        "time": "2026-04-15 16:35:55"
+      },
+      "-OqFV3MQm7uNkDda8xZ4": {
+        "E_wh": 0.079243033,
+        "time": "2026-04-15 16:36:58"
+      },
+      "-OqFVIpByEAd3NdFzY_t": {
+        "E_wh": 0.079243202,
+        "time": "2026-04-15 16:38:02"
+      },
+      "-OqFVYLd39bCV5QDsQ3k": {
+        "E_wh": 0.079243383,
+        "time": "2026-04-15 16:39:05"
+      },
+      "-OqFVn86r-Mascgas-xH": {
+        "E_wh": 0.079243567,
+        "time": "2026-04-15 16:40:10"
+      },
+      "-OqFW1e260SvxcDVFleD": {
+        "E_wh": 0.079243734,
+        "time": "2026-04-15 16:41:13"
+      },
+      "-OqFWH25bGsdbqlcxGta": {
+        "E_wh": 0.079243909,
+        "time": "2026-04-15 16:42:16"
+      },
+      "-OqFWWTl4cPG7dZj0kU8": {
+        "E_wh": 0.079244078,
+        "time": "2026-04-15 16:43:20"
+      },
+      "-OqGCu8_YAmihb6oHLyZ": {
+        "E_wh": 0.079244363,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqGD8kBHK9QtycBuBLS": {
+        "E_wh": 0.07942846,
+        "time": "2026-04-15 19:58:19"
+      },
+      "-OqGDOYdAyUjD-xIITm-": {
+        "E_wh": 0.079433574,
+        "time": "2026-04-15 19:59:24"
+      },
+      "-OqGDd9zE9oaxA0wu8pN": {
+        "E_wh": 0.079433783,
+        "time": "2026-04-15 20:00:28"
+      },
+      "-OqGDsiB3uVASEZm8tbb": {
+        "E_wh": 0.079433952,
+        "time": "2026-04-15 20:01:31"
+      },
+      "-OqGE7LjeiqatDMpZqKi": {
+        "E_wh": 0.079434134,
+        "time": "2026-04-15 20:02:35"
+      },
+      "-OqOZAowU3f7kN6q14gi": {
+        "E_wh": 0.079434231,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqOZQPK53_u8ev7Vkl-": {
+        "E_wh": 0.079614315,
+        "time": "2026-04-17 10:52:36"
+      },
+      "-OqOZetR0sh9GqjCrCm2": {
+        "E_wh": 0.079619373,
+        "time": "2026-04-17 10:53:40"
+      },
+      "-OqOZuT99v8aEwbOKq5K": {
+        "E_wh": 0.079885704,
+        "time": "2026-04-17 10:54:43"
+      },
+      "-OqO_91bmpOsG09qiFmk": {
+        "E_wh": 0.080474635,
+        "time": "2026-04-17 10:55:47"
+      },
+      "-OqO_OXwMgFDeAzm5Rjp": {
+        "E_wh": 0.081001038,
+        "time": "2026-04-17 10:56:51"
+      },
+      "-OqO_d4if4UPnO7CDsav": {
+        "E_wh": 0.081522078,
+        "time": "2026-04-17 10:57:54"
+      },
+      "-OqO_sZGocFkyMU_5VGW": {
+        "E_wh": 0.082032774,
+        "time": "2026-04-17 10:58:58"
+      },
+      "-OqOa74XDGxuPYo9dnDw": {
+        "E_wh": 0.082566212,
+        "time": "2026-04-17 11:00:01"
+      },
+      "-OqOaMdG4lshAnyFg72R": {
+        "E_wh": 0.083088658,
+        "time": "2026-04-17 11:01:05"
+      },
+      "-OqOab4jV9KEpj3UoiSG": {
+        "E_wh": 0.083613273,
+        "time": "2026-04-17 11:02:08"
+      },
+      "-OqOaqhMCSHMjdXYOvAs": {
+        "E_wh": 0.084143725,
+        "time": "2026-04-17 11:03:12"
+      },
+      "-OqOb0m0vjPf22oaBvd5": {
+        "E_wh": 0.084301062,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqObGIaOxNC9a2OWoLl": {
+        "E_wh": 0.084750909,
+        "time": "2026-04-17 11:05:01"
+      }
+    },
+    "history_label": {
+      "-OqC7kP04yf_znNMIAVD": {
+        "label": 0,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqC7lgTKcYROIxBi9UI": {
+        "label": 0,
+        "time": "2026-04-15 00:56:21"
+      },
+      "-OqC7my9NCSbVxHDY8Bp": {
+        "label": 0,
+        "time": "2026-04-15 00:56:26"
+      },
+      "-OqC7oFBQH4pz-Nqkuer": {
+        "label": 0,
+        "time": "2026-04-15 00:56:31"
+      },
+      "-OqC7pXALikVY9K7sEFs": {
+        "label": 0,
+        "time": "2026-04-15 00:56:37"
+      },
+      "-OqC7qnniHp4XEp6cCpV": {
+        "label": 0,
+        "time": "2026-04-15 00:56:42"
+      },
+      "-OqC7s4gc4mW1wWptiz_": {
+        "label": 0,
+        "time": "2026-04-15 00:56:47"
+      },
+      "-OqC7tMWWRkzrcK65xyl": {
+        "label": 0,
+        "time": "2026-04-15 00:56:52"
+      },
+      "-OqC7udAUF4OjuajL1Jf": {
+        "label": 0,
+        "time": "2026-04-15 00:56:58"
+      },
+      "-OqC7vvNPsIv65bwMzpa": {
+        "label": 0,
+        "time": "2026-04-15 00:57:03"
+      },
+      "-OqC7xC3aAGv4AqHWE3G": {
+        "label": 0,
+        "time": "2026-04-15 00:57:08"
+      },
+      "-OqC7yU5yRDAdxTS8kr8": {
+        "label": 0,
+        "time": "2026-04-15 00:57:13"
+      },
+      "-OqC7zkpqQliiThOS3Er": {
+        "label": 0,
+        "time": "2026-04-15 00:57:18"
+      },
+      "-OqC802ecZvJcicDjLmq": {
+        "label": 0,
+        "time": "2026-04-15 00:57:24"
+      },
+      "-OqC81Ka5t9-BFRzl40g": {
+        "label": 0,
+        "time": "2026-04-15 00:57:29"
+      },
+      "-OqC82bkM7xQzpEYEYnD": {
+        "label": 0,
+        "time": "2026-04-15 00:57:34"
+      },
+      "-OqC83tiYhgKG8f8zUBM": {
+        "label": 0,
+        "time": "2026-04-15 00:57:40"
+      },
+      "-OqC85Aoa2nQItHN5C9w": {
+        "label": 0,
+        "time": "2026-04-15 00:57:45"
+      },
+      "-OqC86Slusup0_c4Dl6O": {
+        "label": 0,
+        "time": "2026-04-15 00:57:50"
+      },
+      "-OqC87jShBI6pk3jqmC5": {
+        "label": 0,
+        "time": "2026-04-15 00:57:55"
+      },
+      "-OqC8904MFJ7sy7-CsCX": {
+        "label": 0,
+        "time": "2026-04-15 00:58:00"
+      },
+      "-OqC8AHyqSHDR9Jhj7Xt": {
+        "label": 0,
+        "time": "2026-04-15 00:58:06"
+      },
+      "-OqC8BZlEH2NFJcap-ZJ": {
+        "label": 0,
+        "time": "2026-04-15 00:58:11"
+      },
+      "-OqC8CqNywRHKnjj00RN": {
+        "label": 0,
+        "time": "2026-04-15 00:58:16"
+      },
+      "-OqC8E7A-8FqcFGp6tlK": {
+        "label": 0,
+        "time": "2026-04-15 00:58:21"
+      },
+      "-OqC8FP_sv-TSe4CBrmM": {
+        "label": 0,
+        "time": "2026-04-15 00:58:27"
+      },
+      "-OqC8GgPdD7P93vIWBav": {
+        "label": 0,
+        "time": "2026-04-15 00:58:32"
+      },
+      "-OqC8Hy1qCw0Z6ObpFvs": {
+        "label": 0,
+        "time": "2026-04-15 00:58:37"
+      },
+      "-OqC8JF6ULosIRiqBhxe": {
+        "label": 0,
+        "time": "2026-04-15 00:58:42"
+      },
+      "-OqC8KXZDaawblrF22Q7": {
+        "label": 0,
+        "time": "2026-04-15 00:58:48"
+      },
+      "-OqC8LoEqY6WodKip0tJ": {
+        "label": 0,
+        "time": "2026-04-15 00:58:53"
+      },
+      "-OqC8N4xVs9vNs3lJRI-": {
+        "label": 0,
+        "time": "2026-04-15 00:58:58"
+      },
+      "-OqC8OMocJYuBtVrGr2I": {
+        "label": 0,
+        "time": "2026-04-15 00:59:03"
+      },
+      "-OqC8PdhvesI-HFQpiDr": {
+        "label": 0,
+        "time": "2026-04-15 00:59:09"
+      },
+      "-OqC8QvXjiCwuorP5TwE": {
+        "label": 0,
+        "time": "2026-04-15 00:59:14"
+      },
+      "-OqC8SMvtIlxAxgkRUZN": {
+        "label": 0,
+        "time": "2026-04-15 00:59:20"
+      },
+      "-OqC8TdvXCcBPYLPCJh3": {
+        "label": 0,
+        "time": "2026-04-15 00:59:25"
+      },
+      "-OqC8UwjG8OdbYW5mDop": {
+        "label": 0,
+        "time": "2026-04-15 00:59:30"
+      },
+      "-OqC8WEABYzpB9J0q-9W": {
+        "label": 0,
+        "time": "2026-04-15 00:59:36"
+      },
+      "-OqC8XVvWsU5p9pSgoRF": {
+        "label": 0,
+        "time": "2026-04-15 00:59:41"
+      },
+      "-OqC8Ynzmt_BGnICg9Qn": {
+        "label": 0,
+        "time": "2026-04-15 00:59:46"
+      },
+      "-OqC8_4d_I7jIrBl6JbR": {
+        "label": 0,
+        "time": "2026-04-15 00:59:51"
+      },
+      "-OqC8aMI6Z1WJcBp3Y90": {
+        "label": 0,
+        "time": "2026-04-15 00:59:57"
+      },
+      "-OqC8bdDb-qPrQPMDQRj": {
+        "label": 0,
+        "time": "2026-04-15 01:00:02"
+      },
+      "-OqC8cupL-k0oaLbXIMP": {
+        "label": 0,
+        "time": "2026-04-15 01:00:07"
+      },
+      "-OqC8eBqUFDqwqKoPkAM": {
+        "label": 0,
+        "time": "2026-04-15 01:00:12"
+      },
+      "-OqC8fTioXGK9WlBLfVF": {
+        "label": 0,
+        "time": "2026-04-15 01:00:18"
+      },
+      "-OqC8gko3qPUU3-bwwP8": {
+        "label": 0,
+        "time": "2026-04-15 01:00:23"
+      },
+      "-OqC8i1NkyUgbNPlkbBJ": {
+        "label": 0,
+        "time": "2026-04-15 01:00:28"
+      },
+      "-OqC8jMx0cAM6CqFdc2g": {
+        "label": 0,
+        "time": "2026-04-15 01:00:34"
+      },
+      "-OqC8kdt_JoibTBiZA3X": {
+        "label": 0,
+        "time": "2026-04-15 01:00:39"
+      },
+      "-OqC8lxSkxS6a0UWVUBI": {
+        "label": 0,
+        "time": "2026-04-15 01:00:44"
+      },
+      "-OqC8nFsCNJasL4bOr2v": {
+        "label": 0,
+        "time": "2026-04-15 01:00:49"
+      },
+      "-OqC8oXX2JI5gR4qs2Ut": {
+        "label": 0,
+        "time": "2026-04-15 01:00:55"
+      },
+      "-OqC8pocvt-tZ_ea3-lz": {
+        "label": 0,
+        "time": "2026-04-15 01:01:00"
+      },
+      "-OqC8r6251V34qRIZ2HV": {
+        "label": 0,
+        "time": "2026-04-15 01:01:05"
+      },
+      "-OqC8sNhYG-7OvYzQEb0": {
+        "label": 0,
+        "time": "2026-04-15 01:01:10"
+      },
+      "-OqC8teKC3Nox6C4ywW_": {
+        "label": 0,
+        "time": "2026-04-15 01:01:16"
+      },
+      "-OqC8uvsFvm2i5TUAibG": {
+        "label": 0,
+        "time": "2026-04-15 01:01:21"
+      },
+      "-OqC8wChjC2cidHhwuuW": {
+        "label": 0,
+        "time": "2026-04-15 01:01:26"
+      },
+      "-OqC8xUkLtERh010-aR8": {
+        "label": 0,
+        "time": "2026-04-15 01:01:31"
+      },
+      "-OqC8ymUBaWZ9oz0Wd2w": {
+        "label": 0,
+        "time": "2026-04-15 01:01:37"
+      },
+      "-OqC9-41DnCGG3h5qfSG": {
+        "label": 0,
+        "time": "2026-04-15 01:01:42"
+      },
+      "-OqC90M2YW8JTAhuMI-V": {
+        "label": 0,
+        "time": "2026-04-15 01:01:47"
+      },
+      "-OqC91ctAyxRtPG7Ki6N": {
+        "label": 0,
+        "time": "2026-04-15 01:01:52"
+      },
+      "-OqC92ufXaokRPTiazEH": {
+        "label": 0,
+        "time": "2026-04-15 01:01:58"
+      },
+      "-OqC94BTqvUHn5q2y9NM": {
+        "label": 0,
+        "time": "2026-04-15 01:02:03"
+      },
+      "-OqC95TDeaSBecwYrYxR": {
+        "label": 0,
+        "time": "2026-04-15 01:02:08"
+      },
+      "-OqC96l5Esb_mMsGOMEZ": {
+        "label": 0,
+        "time": "2026-04-15 01:02:13"
+      },
+      "-OqC981vYwKCnqmFNWLb": {
+        "label": 0,
+        "time": "2026-04-15 01:02:19"
+      },
+      "-OqC99T_F0R3xW1jjPoH": {
+        "label": 0,
+        "time": "2026-04-15 01:02:25"
+      },
+      "-OqC9AkBHNZ95qqORy7Z": {
+        "label": 0,
+        "time": "2026-04-15 01:02:30"
+      },
+      "-OqC9C0h0aGFna52GQgC": {
+        "label": 0,
+        "time": "2026-04-15 01:02:35"
+      },
+      "-OqC9DJsWtGiB_qgr8mQ": {
+        "label": 0,
+        "time": "2026-04-15 01:02:40"
+      },
+      "-OqC9EajXpLJgZ6hAjyF": {
+        "label": 0,
+        "time": "2026-04-15 01:02:46"
+      },
+      "-OqC9FsazjonFf8jnOPV": {
+        "label": 0,
+        "time": "2026-04-15 01:02:51"
+      },
+      "-OqC9H9YcSLlpAkdITo1": {
+        "label": 0,
+        "time": "2026-04-15 01:02:56"
+      },
+      "-OqC9IRBGIHTDDse3gnc": {
+        "label": 0,
+        "time": "2026-04-15 01:03:01"
+      },
+      "-OqC9JhwiKFKTO-QwNLY": {
+        "label": 0,
+        "time": "2026-04-15 01:03:06"
+      },
+      "-OqC9KzU2C7hFnKslkMD": {
+        "label": 0,
+        "time": "2026-04-15 01:03:12"
+      },
+      "-OqC9MG1WkA3P4XkrHBC": {
+        "label": 0,
+        "time": "2026-04-15 01:03:17"
+      },
+      "-OqC9NXxxppngfTvgIIF": {
+        "label": 0,
+        "time": "2026-04-15 01:03:22"
+      },
+      "-OqC9OqrVTd5NgRNk8MG": {
+        "label": 0,
+        "time": "2026-04-15 01:03:28"
+      },
+      "-OqC9Q7WyWHdLrDMPvAd": {
+        "label": 0,
+        "time": "2026-04-15 01:03:33"
+      },
+      "-OqC9RPDBpSS88THOR4G": {
+        "label": 0,
+        "time": "2026-04-15 01:03:38"
+      },
+      "-OqC9Sgh94hHELnNnj0v": {
+        "label": 0,
+        "time": "2026-04-15 01:03:43"
+      },
+      "-OqC9Ty_I84P1zA0k0ZR": {
+        "label": 0,
+        "time": "2026-04-15 01:03:48"
+      },
+      "-OqC9VFRE8O2X9_Ika3-": {
+        "label": 0,
+        "time": "2026-04-15 01:03:54"
+      },
+      "-OqC9WX-HI06pAuJsOwr": {
+        "label": 0,
+        "time": "2026-04-15 01:03:59"
+      },
+      "-OqC9XnVp_xDUjXQKZ6F": {
+        "label": 0,
+        "time": "2026-04-15 01:04:04"
+      },
+      "-OqC9Z4L85xWR-QyuHU4": {
+        "label": 0,
+        "time": "2026-04-15 01:04:09"
+      },
+      "-OqC9_M591DMfPkppquX": {
+        "label": 0,
+        "time": "2026-04-15 01:04:15"
+      },
+      "-OqC9aeJWME2AMP3vTU8": {
+        "label": 0,
+        "time": "2026-04-15 01:04:20"
+      },
+      "-OqC9bvzrdFq7NNWViBF": {
+        "label": 0,
+        "time": "2026-04-15 01:04:25"
+      },
+      "-OqC9dClADHZ6K9V7RLP": {
+        "label": 0,
+        "time": "2026-04-15 01:04:30"
+      },
+      "-OqC9eUJTrZDrePjymvy": {
+        "label": 0,
+        "time": "2026-04-15 01:04:36"
+      },
+      "-OqC9fl164mG2_m8dyVO": {
+        "label": 0,
+        "time": "2026-04-15 01:04:41"
+      },
+      "-OqC9h2mWWgd6t4VR2xa": {
+        "label": 0,
+        "time": "2026-04-15 01:04:46"
+      },
+      "-OqC9iKLb7TtRnDgtHlv": {
+        "label": 0,
+        "time": "2026-04-15 01:04:51"
+      },
+      "-OqC9jb8Vii05c8_H8NE": {
+        "label": 0,
+        "time": "2026-04-15 01:04:57"
+      },
+      "-OqC9kt6KXtIgZSmRCwZ": {
+        "label": 0,
+        "time": "2026-04-15 01:05:02"
+      },
+      "-OqC9mA_gkWjwwJHfjoI": {
+        "label": 0,
+        "time": "2026-04-15 01:05:07"
+      },
+      "-OqC9nSHujZYdFNxnKCK": {
+        "label": 0,
+        "time": "2026-04-15 01:05:12"
+      },
+      "-OqC9oilTX7L5QZ8eFtK": {
+        "label": 0,
+        "time": "2026-04-15 01:05:18"
+      },
+      "-OqC9q-Y8W1YBO3nSv2c": {
+        "label": 0,
+        "time": "2026-04-15 01:05:23"
+      },
+      "-OqC9rP79T2VlQd84KTL": {
+        "label": 0,
+        "time": "2026-04-15 01:05:29"
+      },
+      "-OqC9sg2ZXJEm9jh-200": {
+        "label": 0,
+        "time": "2026-04-15 01:05:34"
+      },
+      "-OqC9typ08BEiK9fpgZa": {
+        "label": 0,
+        "time": "2026-04-15 01:05:39"
+      },
+      "-OqC9vFtlRgCb_snKfWF": {
+        "label": 0,
+        "time": "2026-04-15 01:05:44"
+      },
+      "-OqC9wYTp8Nx9bRA1RvE": {
+        "label": 0,
+        "time": "2026-04-15 01:05:50"
+      },
+      "-OqC9xpc8spjVYQZXuud": {
+        "label": 0,
+        "time": "2026-04-15 01:05:55"
+      },
+      "-OqC9z6tSVyOXNwTyCJA": {
+        "label": 0,
+        "time": "2026-04-15 01:06:00"
+      },
+      "-OqCA-Oh6bwAM0OoAhhD": {
+        "label": 0,
+        "time": "2026-04-15 01:06:05"
+      },
+      "-OqCA0fm5Wt3Hzm_9cQG": {
+        "label": 0,
+        "time": "2026-04-15 01:06:11"
+      },
+      "-OqCA1xs64EEMWWsv1tj": {
+        "label": 0,
+        "time": "2026-04-15 01:06:16"
+      },
+      "-OqCA3Eyg6TCQ-pIT005": {
+        "label": 0,
+        "time": "2026-04-15 01:06:21"
+      },
+      "-OqFJDOzmkVDigHwhCBC": {
+        "label": 3,
+        "time": "2026-04-15 15:45:14"
+      },
+      "-OqFJEgVPmb4Etp76B6A": {
+        "label": 3,
+        "time": "2026-04-15 15:45:19"
+      },
+      "-OqFJFyNpQNr24AvYEuI": {
+        "label": 3,
+        "time": "2026-04-15 15:45:24"
+      },
+      "-OqFJHFr9vYPVK-oKZDq": {
+        "label": 3,
+        "time": "2026-04-15 15:45:30"
+      },
+      "-OqFJIXYn934N66X0MQk": {
+        "label": 3,
+        "time": "2026-04-15 15:45:35"
+      },
+      "-OqFJJorbWywYzgmf1tl": {
+        "label": 3,
+        "time": "2026-04-15 15:45:40"
+      },
+      "-OqFJL5vA8SYFVWr8cDF": {
+        "label": 3,
+        "time": "2026-04-15 15:45:45"
+      },
+      "-OqFJMOSmdqn5TSBMn30": {
+        "label": 3,
+        "time": "2026-04-15 15:45:51"
+      },
+      "-OqFJNfUYAG0qeBup33i": {
+        "label": 3,
+        "time": "2026-04-15 15:45:56"
+      },
+      "-OqFJOySsN8dQ2W_LBKk": {
+        "label": 3,
+        "time": "2026-04-15 15:46:01"
+      },
+      "-OqFJQFEvnGnHEtm7KeP": {
+        "label": 3,
+        "time": "2026-04-15 15:46:06"
+      },
+      "-OqFJRWuTqwk1oSHcP3A": {
+        "label": 3,
+        "time": "2026-04-15 15:46:12"
+      },
+      "-OqFJSnmVf8zKsyeATjV": {
+        "label": 3,
+        "time": "2026-04-15 15:46:17"
+      },
+      "-OqFJU5JWLZ561t9NhJ3": {
+        "label": 3,
+        "time": "2026-04-15 15:46:22"
+      },
+      "-OqFJVMwIKkqAMZ-V_EQ": {
+        "label": 3,
+        "time": "2026-04-15 15:46:27"
+      },
+      "-OqFJWdaj7eG5jmtKl4F": {
+        "label": 3,
+        "time": "2026-04-15 15:46:33"
+      },
+      "-OqFJXw5kCjJeZQO8gBz": {
+        "label": 3,
+        "time": "2026-04-15 15:46:38"
+      },
+      "-OqFJZCtv4kn6fIGvq4V": {
+        "label": 3,
+        "time": "2026-04-15 15:46:43"
+      },
+      "-OqFJ_VcIu4zANuIqOKP": {
+        "label": 3,
+        "time": "2026-04-15 15:46:48"
+      },
+      "-OqFJamd1UO238_3atcY": {
+        "label": 3,
+        "time": "2026-04-15 15:46:54"
+      },
+      "-OqFJc3_QkQli21y8HhX": {
+        "label": 3,
+        "time": "2026-04-15 15:46:59"
+      },
+      "-OqFJdLJjMHxCV9XlNtp": {
+        "label": 3,
+        "time": "2026-04-15 15:47:04"
+      },
+      "-OqFJec5SphPuvbI_jEw": {
+        "label": 3,
+        "time": "2026-04-15 15:47:09"
+      },
+      "-OqFJftgl9pVWDpN_lnJ": {
+        "label": 3,
+        "time": "2026-04-15 15:47:15"
+      },
+      "-OqFJhBEh2GVL30W7FlJ": {
+        "label": 3,
+        "time": "2026-04-15 15:47:20"
+      },
+      "-OqFJiTtm7nHfRQ8lOVD": {
+        "label": 3,
+        "time": "2026-04-15 15:47:25"
+      },
+      "-OqFJjkvbIzBqerjSGa5": {
+        "label": 3,
+        "time": "2026-04-15 15:47:30"
+      },
+      "-OqFJl2Cj1t-EBuVvFxK": {
+        "label": 3,
+        "time": "2026-04-15 15:47:36"
+      },
+      "-OqFJmKUpg9jH1XoU-FF": {
+        "label": 3,
+        "time": "2026-04-15 15:47:41"
+      },
+      "-OqFJnb9AeiHl21yCRIk": {
+        "label": 3,
+        "time": "2026-04-15 15:47:46"
+      },
+      "-OqFJoskNTGFO2okjPsf": {
+        "label": 3,
+        "time": "2026-04-15 15:47:51"
+      },
+      "-OqFJq9mxyPH80iLyrhj": {
+        "label": 3,
+        "time": "2026-04-15 15:47:57"
+      },
+      "-OqFJrS9vyp0eTzPlgzd": {
+        "label": 3,
+        "time": "2026-04-15 15:48:02"
+      },
+      "-OqFJsir8_KsTJ0Aath4": {
+        "label": 1,
+        "time": "2026-04-15 15:48:07"
+      },
+      "-OqFJu-fuPiEb3d7YFiQ": {
+        "label": 0,
+        "time": "2026-04-15 15:48:12"
+      },
+      "-OqFJvPme_Lkq4JJIaeQ": {
+        "label": 0,
+        "time": "2026-04-15 15:48:18"
+      },
+      "-OqFJwhMlmz2IP5UJK6q": {
+        "label": 0,
+        "time": "2026-04-15 15:48:23"
+      },
+      "-OqFJy-8bRJrw9EKFsAP": {
+        "label": 1,
+        "time": "2026-04-15 15:48:29"
+      },
+      "-OqFJzGsIP-w_F_W9mAt": {
+        "label": 1,
+        "time": "2026-04-15 15:48:34"
+      },
+      "-OqFK-Yoc84lZy6VDkKd": {
+        "label": 1,
+        "time": "2026-04-15 15:48:39"
+      },
+      "-OqFK0pb6FPxT9OlOdR6": {
+        "label": 1,
+        "time": "2026-04-15 15:48:44"
+      },
+      "-OqFK26SgQ8D7Kzy3krn": {
+        "label": 1,
+        "time": "2026-04-15 15:48:50"
+      },
+      "-OqFK3OYDj1vIkmCy3JJ": {
+        "label": 1,
+        "time": "2026-04-15 15:48:55"
+      },
+      "-OqFK4ft-w8rgwZmoreX": {
+        "label": 1,
+        "time": "2026-04-15 15:49:00"
+      },
+      "-OqFK5xw7AWQWmWTd1VY": {
+        "label": 1,
+        "time": "2026-04-15 15:49:05"
+      },
+      "-OqFK7E_CID7uweUYq9k": {
+        "label": 1,
+        "time": "2026-04-15 15:49:11"
+      },
+      "-OqFK8XLFbXRZKdvqgl-": {
+        "label": 3,
+        "time": "2026-04-15 15:49:16"
+      },
+      "-OqFK9o-s6Yi_fjqy-c1": {
+        "label": 3,
+        "time": "2026-04-15 15:49:21"
+      },
+      "-OqFKB5lgVoWUvUU6D7v": {
+        "label": 1,
+        "time": "2026-04-15 15:49:26"
+      },
+      "-OqFKCOJU-YJUeBGl3p1": {
+        "label": 1,
+        "time": "2026-04-15 15:49:32"
+      },
+      "-OqFKDfaMKzJhTvmmtqn": {
+        "label": 1,
+        "time": "2026-04-15 15:49:37"
+      },
+      "-OqFKExD42rKZPRSMCzo": {
+        "label": 1,
+        "time": "2026-04-15 15:49:42"
+      },
+      "-OqFKGDpJcY0IUmRadTr": {
+        "label": 1,
+        "time": "2026-04-15 15:49:47"
+      },
+      "-OqFKHW6RV1UNuT_yvAR": {
+        "label": 1,
+        "time": "2026-04-15 15:49:53"
+      },
+      "-OqFKIn2QniwcrTZQnxu": {
+        "label": 3,
+        "time": "2026-04-15 15:49:58"
+      },
+      "-OqFKK3aatDKJ9IycqzK": {
+        "label": 3,
+        "time": "2026-04-15 15:50:03"
+      },
+      "-OqFKLLPMERwdTUO_WgD": {
+        "label": 3,
+        "time": "2026-04-15 15:50:08"
+      },
+      "-OqFKMcZwL8k8jtBwhi0": {
+        "label": 3,
+        "time": "2026-04-15 15:50:14"
+      },
+      "-OqFKNu8_au0vAgPcF5D": {
+        "label": 1,
+        "time": "2026-04-15 15:50:19"
+      },
+      "-OqFKPB2gRCMzGRxb2Lw": {
+        "label": 3,
+        "time": "2026-04-15 15:50:24"
+      },
+      "-OqFKQSZbgocYsI0yFA2": {
+        "label": 1,
+        "time": "2026-04-15 15:50:29"
+      },
+      "-OqFKRju0mUKUEWKr4Kw": {
+        "label": 1,
+        "time": "2026-04-15 15:50:35"
+      },
+      "-OqFKT13SCISRYwbbQMD": {
+        "label": 3,
+        "time": "2026-04-15 15:50:40"
+      },
+      "-OqFKUJDiofJ_rzXaa6o": {
+        "label": 3,
+        "time": "2026-04-15 15:50:45"
+      },
+      "-OqFKVaRlHN5UDmk3m7V": {
+        "label": 1,
+        "time": "2026-04-15 15:50:50"
+      },
+      "-OqFKWtxr1mwWuZxu1Xw": {
+        "label": 1,
+        "time": "2026-04-15 15:50:56"
+      },
+      "-OqFKYAbnfAS8ugdu1-c": {
+        "label": 1,
+        "time": "2026-04-15 15:51:01"
+      },
+      "-OqFKZSP9RXXCdhflav9": {
+        "label": 1,
+        "time": "2026-04-15 15:51:06"
+      },
+      "-OqFK_j-y9tGBihtsKnu": {
+        "label": 1,
+        "time": "2026-04-15 15:51:11"
+      },
+      "-OqFKb-gDSdbZug9YK-S": {
+        "label": 1,
+        "time": "2026-04-15 15:51:17"
+      },
+      "-OqFKcQsgGjAdPFILIRy": {
+        "label": 0,
+        "time": "2026-04-15 15:51:22"
+      },
+      "-OqFKdhYcbBkTQA9kH80": {
+        "label": 0,
+        "time": "2026-04-15 15:51:28"
+      },
+      "-OqFKezBQEYof85VaMvV": {
+        "label": 1,
+        "time": "2026-04-15 15:51:33"
+      },
+      "-OqFKgHKROXK8Fh1YwtD": {
+        "label": 1,
+        "time": "2026-04-15 15:51:38"
+      },
+      "-OqFKhYvAX3k3zJ3tf4Z": {
+        "label": 1,
+        "time": "2026-04-15 15:51:43"
+      },
+      "-OqFKiqAycjPvv4_v8Ld": {
+        "label": 1,
+        "time": "2026-04-15 15:51:49"
+      },
+      "-OqFKk7T73-vSWLmnsMy": {
+        "label": 1,
+        "time": "2026-04-15 15:51:54"
+      },
+      "-OqFKlP_fa9VH3MTfMUW": {
+        "label": 0,
+        "time": "2026-04-15 15:51:59"
+      },
+      "-OqFKmgG1opoM2VagN1G": {
+        "label": 0,
+        "time": "2026-04-15 15:52:04"
+      },
+      "-OqFKnxxBC724obX6LUd": {
+        "label": 1,
+        "time": "2026-04-15 15:52:10"
+      },
+      "-OqFKpEe4caXHskEgTj0": {
+        "label": 1,
+        "time": "2026-04-15 15:52:15"
+      },
+      "-OqFKqWrAxl4u4TeXWye": {
+        "label": 1,
+        "time": "2026-04-15 15:52:20"
+      },
+      "-OqFKro5A3Ym9Ls2ru77": {
+        "label": 1,
+        "time": "2026-04-15 15:52:25"
+      },
+      "-OqFKt4i3H575-qNf7Cy": {
+        "label": 1,
+        "time": "2026-04-15 15:52:31"
+      },
+      "-OqFKuMqWw5SCVcpg1KS": {
+        "label": 1,
+        "time": "2026-04-15 15:52:36"
+      },
+      "-OqFKveOv5B_mSqqK7MU": {
+        "label": 1,
+        "time": "2026-04-15 15:52:41"
+      },
+      "-OqFKwwLF907AbN9AVEk": {
+        "label": 1,
+        "time": "2026-04-15 15:52:46"
+      },
+      "-OqFKyD69-bjFGi2-SP4": {
+        "label": 1,
+        "time": "2026-04-15 15:52:52"
+      },
+      "-OqFKzV4ktuaj0GPTjwi": {
+        "label": 1,
+        "time": "2026-04-15 15:52:57"
+      },
+      "-OqFL-mTI1m6xB65SkZ5": {
+        "label": 1,
+        "time": "2026-04-15 15:53:02"
+      },
+      "-OqFL14sKeNE-AFKop36": {
+        "label": 1,
+        "time": "2026-04-15 15:53:08"
+      },
+      "-OqFL2M_gUe1BN9nSRFx": {
+        "label": 1,
+        "time": "2026-04-15 15:53:13"
+      },
+      "-OqFL3dNGBXv6yZs26Sj": {
+        "label": 1,
+        "time": "2026-04-15 15:53:18"
+      },
+      "-OqFL4vCHT9pkIBbvhUA": {
+        "label": 1,
+        "time": "2026-04-15 15:53:23"
+      },
+      "-OqFL6Brmh8dWoW5AVXF": {
+        "label": 1,
+        "time": "2026-04-15 15:53:28"
+      },
+      "-OqFL7UaftbLQXjvdSWL": {
+        "label": 1,
+        "time": "2026-04-15 15:53:34"
+      },
+      "-OqFL8lyv3q5isiftRlT": {
+        "label": 1,
+        "time": "2026-04-15 15:53:39"
+      },
+      "-OqFLA3uWVmC1Ntir3N0": {
+        "label": 1,
+        "time": "2026-04-15 15:53:44"
+      },
+      "-OqFLBMddCISLK9AVy6h": {
+        "label": 1,
+        "time": "2026-04-15 15:53:50"
+      },
+      "-OqFLCdQGTW9Oe8qNysc": {
+        "label": 1,
+        "time": "2026-04-15 15:53:55"
+      },
+      "-OqFLDv4ieDrQ-415J65": {
+        "label": 1,
+        "time": "2026-04-15 15:54:00"
+      },
+      "-OqFLFBoaUWQCg9scCD4": {
+        "label": 1,
+        "time": "2026-04-15 15:54:05"
+      },
+      "-OqFLGU6kwy_-tAY69gr": {
+        "label": 1,
+        "time": "2026-04-15 15:54:11"
+      },
+      "-OqFLHkecsYxwZBV9yuR": {
+        "label": 1,
+        "time": "2026-04-15 15:54:16"
+      },
+      "-OqFLJ1__I_HNmNe2Z9Y": {
+        "label": 1,
+        "time": "2026-04-15 15:54:21"
+      },
+      "-OqFLKRHpFRYgadpXc5J": {
+        "label": 1,
+        "time": "2026-04-15 15:54:27"
+      },
+      "-OqFLLhkz0LMOWTC2d-4": {
+        "label": 0,
+        "time": "2026-04-15 15:54:32"
+      },
+      "-OqFLMzCKkFMbyGsr1RP": {
+        "label": 0,
+        "time": "2026-04-15 15:54:37"
+      },
+      "-OqFLOFzLt6Htei62KNH": {
+        "label": 0,
+        "time": "2026-04-15 15:54:42"
+      },
+      "-OqFLPYXDxEBku5RhdH2": {
+        "label": 1,
+        "time": "2026-04-15 15:54:48"
+      },
+      "-OqFLQph1vHoP5LTBmaC": {
+        "label": 1,
+        "time": "2026-04-15 15:54:53"
+      },
+      "-OqFLS6FVXaSASz1sdGE": {
+        "label": 1,
+        "time": "2026-04-15 15:54:58"
+      },
+      "-OqFLTNrkojpMK_KwcrG": {
+        "label": 1,
+        "time": "2026-04-15 15:55:03"
+      },
+      "-OqFLUeWOVX2iJoUGatH": {
+        "label": 1,
+        "time": "2026-04-15 15:55:09"
+      },
+      "-OqFLVw1VoPAHol-F3kl": {
+        "label": 1,
+        "time": "2026-04-15 15:55:14"
+      },
+      "-OqFLXDAO-D9GJ4uG7Fd": {
+        "label": 1,
+        "time": "2026-04-15 15:55:19"
+      },
+      "-OqFLYVYUR6RaTlA2xu0": {
+        "label": 1,
+        "time": "2026-04-15 15:55:24"
+      },
+      "-OqFLZuF64rlxbgGurRM": {
+        "label": 1,
+        "time": "2026-04-15 15:55:30"
+      },
+      "-OqFLaDNaRoJKAc_bCOH": {
+        "label": 1,
+        "time": "2026-04-15 15:55:36"
+      },
+      "-OqFLbVKdb60odeTfYyG": {
+        "label": 1,
+        "time": "2026-04-15 15:55:41"
+      },
+      "-OqFLcmAWx4vw6PPGmkI": {
+        "label": 1,
+        "time": "2026-04-15 15:55:46"
+      },
+      "-OqFLe3ZbPz3xodpP2cW": {
+        "label": 1,
+        "time": "2026-04-15 15:55:51"
+      },
+      "-OqFLfLaKFzCd3xHfHAo": {
+        "label": 1,
+        "time": "2026-04-15 15:55:57"
+      },
+      "-OqFLgcIPckQeaSJXG6i": {
+        "label": 1,
+        "time": "2026-04-15 15:56:02"
+      },
+      "-OqFLhtyZ8v-qlPw-r2N": {
+        "label": 1,
+        "time": "2026-04-15 15:56:07"
+      },
+      "-OqFLjAbmREsJfli7AY6": {
+        "label": 1,
+        "time": "2026-04-15 15:56:12"
+      },
+      "-OqFLkSHBVSmvgtFyn4f": {
+        "label": 1,
+        "time": "2026-04-15 15:56:17"
+      },
+      "-OqFLljDUaT-J9rSfDMI": {
+        "label": 1,
+        "time": "2026-04-15 15:56:23"
+      },
+      "-OqFLn-e2sErupseMl-3": {
+        "label": 1,
+        "time": "2026-04-15 15:56:28"
+      },
+      "-OqFLoHjXu_87m3NJI70": {
+        "label": 1,
+        "time": "2026-04-15 15:56:33"
+      },
+      "-OqFLp_5PfFWSPNDkgDI": {
+        "label": 1,
+        "time": "2026-04-15 15:56:38"
+      },
+      "-OqFLqqiT4zAGxwGyOGS": {
+        "label": 0,
+        "time": "2026-04-15 15:56:44"
+      },
+      "-OqFLs7H80vKLj7-b3nJ": {
+        "label": 0,
+        "time": "2026-04-15 15:56:49"
+      },
+      "-OqFLtRJoxQtOH6rbIaa": {
+        "label": 1,
+        "time": "2026-04-15 15:56:54"
+      },
+      "-OqFLuiXU_QOy7dTmjMp": {
+        "label": 1,
+        "time": "2026-04-15 15:57:00"
+      },
+      "-OqFLw-5cpdzaTjs_2yZ": {
+        "label": 0,
+        "time": "2026-04-15 15:57:05"
+      },
+      "-OqFLxH3WMSF1-BGcPyT": {
+        "label": 1,
+        "time": "2026-04-15 15:57:10"
+      },
+      "-OqFLyYRu69HP0CgEAib": {
+        "label": 0,
+        "time": "2026-04-15 15:57:15"
+      },
+      "-OqFLzpTVePwgffGOEGN": {
+        "label": 1,
+        "time": "2026-04-15 15:57:20"
+      },
+      "-OqFM06ieieNeKwe_g2Y": {
+        "label": 1,
+        "time": "2026-04-15 15:57:26"
+      },
+      "-OqFM1_qfedG-QvGg1DQ": {
+        "label": 1,
+        "time": "2026-04-15 15:57:32"
+      },
+      "-OqFM2sD3ByisGH0LqKh": {
+        "label": 1,
+        "time": "2026-04-15 15:57:37"
+      },
+      "-OqFM4B7w5n45hpJ_Z9k": {
+        "label": 1,
+        "time": "2026-04-15 15:57:42"
+      },
+      "-OqFM5Sth0e2MZYCZcZC": {
+        "label": 0,
+        "time": "2026-04-15 15:57:48"
+      },
+      "-OqFM6jNZ2xP-zjXn53c": {
+        "label": 1,
+        "time": "2026-04-15 15:57:53"
+      },
+      "-OqFM80fcEJFNgn9PEND": {
+        "label": 1,
+        "time": "2026-04-15 15:57:58"
+      },
+      "-OqFM9J4Agc3EFaky0OM": {
+        "label": 1,
+        "time": "2026-04-15 15:58:03"
+      },
+      "-OqFMAayWUXRDNs4sY5s": {
+        "label": 1,
+        "time": "2026-04-15 15:58:09"
+      },
+      "-OqFMBsp0M35wsBo6npL": {
+        "label": 1,
+        "time": "2026-04-15 15:58:14"
+      },
+      "-OqFMDBQDmUzyuqL9jWk": {
+        "label": 1,
+        "time": "2026-04-15 15:58:19"
+      },
+      "-OqFMETis6KmATvC6Qw6": {
+        "label": 1,
+        "time": "2026-04-15 15:58:25"
+      },
+      "-OqFMFkfw4EQzqlCgfep": {
+        "label": 1,
+        "time": "2026-04-15 15:58:30"
+      },
+      "-OqFMH3bQCo5vEkpi-wG": {
+        "label": 1,
+        "time": "2026-04-15 15:58:35"
+      },
+      "-OqFMILogLurB6gMmZOE": {
+        "label": 1,
+        "time": "2026-04-15 15:58:40"
+      },
+      "-OqFMJd0_J2i2l1eQuvG": {
+        "label": 1,
+        "time": "2026-04-15 15:58:46"
+      },
+      "-OqFMKxrNHB-jlkxve0K": {
+        "label": 1,
+        "time": "2026-04-15 15:58:51"
+      },
+      "-OqFMMEpz_IE1g_9o32D": {
+        "label": 1,
+        "time": "2026-04-15 15:58:56"
+      },
+      "-OqFMNXOBWmId_Mj_ory": {
+        "label": 1,
+        "time": "2026-04-15 15:59:02"
+      },
+      "-OqFMOoNvNKpbFB1Zzac": {
+        "label": 1,
+        "time": "2026-04-15 15:59:07"
+      },
+      "-OqFMQ8qp1f-n5womgEa": {
+        "label": 1,
+        "time": "2026-04-15 15:59:12"
+      },
+      "-OqFMRQlI1ujq4T4Zo9h": {
+        "label": 1,
+        "time": "2026-04-15 15:59:18"
+      },
+      "-OqFMShlKXzle1-ekDoi": {
+        "label": 3,
+        "time": "2026-04-15 15:59:23"
+      },
+      "-OqFMTzhONzPWLGBt-Kp": {
+        "label": 3,
+        "time": "2026-04-15 15:59:28"
+      },
+      "-OqFMVHcJy4iio9131ly": {
+        "label": 1,
+        "time": "2026-04-15 15:59:33"
+      },
+      "-OqFMWZP3bwMDVDHiWkR": {
+        "label": 1,
+        "time": "2026-04-15 15:59:39"
+      },
+      "-OqFMXqaunWaW7qS2l2m": {
+        "label": 1,
+        "time": "2026-04-15 15:59:44"
+      },
+      "-OqFMZ7x3fvwnTpDUOMs": {
+        "label": 1,
+        "time": "2026-04-15 15:59:49"
+      },
+      "-OqFM_PrKbfY4d0UnPvo": {
+        "label": 1,
+        "time": "2026-04-15 15:59:54"
+      },
+      "-OqFMah2jE5aBLOvn6XQ": {
+        "label": 1,
+        "time": "2026-04-15 16:00:00"
+      },
+      "-OqFMc-9KIt_yL1-uTHz": {
+        "label": 1,
+        "time": "2026-04-15 16:00:05"
+      },
+      "-OqFMdHS8NN2prWwgfh8": {
+        "label": 1,
+        "time": "2026-04-15 16:00:10"
+      },
+      "-OqFMeZ0msjuzjpC3wTP": {
+        "label": 1,
+        "time": "2026-04-15 16:00:15"
+      },
+      "-OqFMfrGNbgoLB3TIfYO": {
+        "label": 1,
+        "time": "2026-04-15 16:00:21"
+      },
+      "-OqFMhAQfnVQQ3jboxnL": {
+        "label": 1,
+        "time": "2026-04-15 16:00:26"
+      },
+      "-OqFMi_3CrT_BRpn_PkI": {
+        "label": 0,
+        "time": "2026-04-15 16:00:32"
+      },
+      "-OqFMjrLoH6FGoXCkcU_": {
+        "label": 0,
+        "time": "2026-04-15 16:00:37"
+      },
+      "-OqFMl81MiF3CXp4aTDP": {
+        "label": 1,
+        "time": "2026-04-15 16:00:42"
+      },
+      "-OqFMmPtkPCRSEuQ8jX3": {
+        "label": 1,
+        "time": "2026-04-15 16:00:48"
+      },
+      "-OqFMngTfsTFt5BjZySM": {
+        "label": 1,
+        "time": "2026-04-15 16:00:53"
+      },
+      "-OqFMoySYkOKk_iOy11G": {
+        "label": 1,
+        "time": "2026-04-15 16:00:58"
+      },
+      "-OqFMqFudwNWTIA_bucz": {
+        "label": 0,
+        "time": "2026-04-15 16:01:03"
+      },
+      "-OqFMrZAhHQG7miqHAXt": {
+        "label": 1,
+        "time": "2026-04-15 16:01:09"
+      },
+      "-OqFMspy4l7Mt7xtMD1x": {
+        "label": 1,
+        "time": "2026-04-15 16:01:14"
+      },
+      "-OqFMu6cRvDTybMLJgcn": {
+        "label": 1,
+        "time": "2026-04-15 16:01:19"
+      },
+      "-OqFMvP0451JsRDcClhb": {
+        "label": 1,
+        "time": "2026-04-15 16:01:24"
+      },
+      "-OqFMwfeULElhBeBDbGQ": {
+        "label": 1,
+        "time": "2026-04-15 16:01:30"
+      },
+      "-OqFMxxYe-Vi-kLlJc9q": {
+        "label": 0,
+        "time": "2026-04-15 16:01:35"
+      },
+      "-OqFMzEHGWBwIdy405tO": {
+        "label": 1,
+        "time": "2026-04-15 16:01:40"
+      },
+      "-OqFN-WQOIZ5lv3xdI0h": {
+        "label": 1,
+        "time": "2026-04-15 16:01:45"
+      },
+      "-OqFN0nN_yDtoN63Hcb-": {
+        "label": 1,
+        "time": "2026-04-15 16:01:51"
+      },
+      "-OqFN24x2G3bk6h5gHGT": {
+        "label": 1,
+        "time": "2026-04-15 16:01:56"
+      },
+      "-OqFN3Mc0_znqLvj9RAe": {
+        "label": 1,
+        "time": "2026-04-15 16:02:01"
+      },
+      "-OqFN4fOFaqd5vPOgOoq": {
+        "label": 1,
+        "time": "2026-04-15 16:02:06"
+      },
+      "-OqFN5zei_C5Rvmhq29M": {
+        "label": 1,
+        "time": "2026-04-15 16:02:12"
+      },
+      "-OqFN7G_TsC3i1LXcgsv": {
+        "label": 1,
+        "time": "2026-04-15 16:02:17"
+      },
+      "-OqFN8YwXO6bLv3n2xAI": {
+        "label": 1,
+        "time": "2026-04-15 16:02:22"
+      },
+      "-OqFN9pd4n4dfNAXixkx": {
+        "label": 1,
+        "time": "2026-04-15 16:02:28"
+      },
+      "-OqFNB6rOzoOx3t_Mu5S": {
+        "label": 1,
+        "time": "2026-04-15 16:02:33"
+      },
+      "-OqFNCObJ7L17e36XSXh": {
+        "label": 1,
+        "time": "2026-04-15 16:02:38"
+      },
+      "-OqFNDfudrZNHQ3dnbvO": {
+        "label": 1,
+        "time": "2026-04-15 16:02:43"
+      },
+      "-OqFNExW9GBM3dVFuFuV": {
+        "label": 1,
+        "time": "2026-04-15 16:02:49"
+      },
+      "-OqFNGE45tb-PAUX3ZXy": {
+        "label": 0,
+        "time": "2026-04-15 16:02:54"
+      },
+      "-OqFNHVqSFz7ZVgY0-96": {
+        "label": 0,
+        "time": "2026-04-15 16:02:59"
+      },
+      "-OqFNInuqO0seb_xnmmE": {
+        "label": 1,
+        "time": "2026-04-15 16:03:04"
+      },
+      "-OqFNK4b7dc3KQ71YHXg": {
+        "label": 1,
+        "time": "2026-04-15 16:03:10"
+      },
+      "-OqFNLNHVzljUWXPEto1": {
+        "label": 0,
+        "time": "2026-04-15 16:03:15"
+      },
+      "-OqFNMdulq5VsUGrT1pB": {
+        "label": 1,
+        "time": "2026-04-15 16:03:20"
+      },
+      "-OqFNNvUGuy5w0Hri1ga": {
+        "label": 0,
+        "time": "2026-04-15 16:03:25"
+      },
+      "-OqFNPCKvPW4Wwm1N-c2": {
+        "label": 1,
+        "time": "2026-04-15 16:03:31"
+      },
+      "-OqFNQjGpfeQ01ok5A80": {
+        "label": 1,
+        "time": "2026-04-15 16:03:37"
+      },
+      "-OqFNS0tt1_vqaip_MR9": {
+        "label": 1,
+        "time": "2026-04-15 16:03:42"
+      },
+      "-OqFNTIhlE1E2UWevccS": {
+        "label": 1,
+        "time": "2026-04-15 16:03:47"
+      },
+      "-OqFNU_cneyX023RQ1RI": {
+        "label": 1,
+        "time": "2026-04-15 16:03:53"
+      },
+      "-OqFNVr1DJ4VOFiavoqA": {
+        "label": 1,
+        "time": "2026-04-15 16:03:58"
+      },
+      "-OqFNX7W0L9X08FhnnWV": {
+        "label": 1,
+        "time": "2026-04-15 16:04:03"
+      },
+      "-OqFNYPLG8ardltbLRsT": {
+        "label": 1,
+        "time": "2026-04-15 16:04:08"
+      },
+      "-OqFNZgSGjS4tVUxgGiy": {
+        "label": 1,
+        "time": "2026-04-15 16:04:14"
+      },
+      "-OqFN_ybYn0GwCe1m9Ch": {
+        "label": 1,
+        "time": "2026-04-15 16:04:19"
+      },
+      "-OqFNbF7KiqBBkPfZrsm": {
+        "label": 1,
+        "time": "2026-04-15 16:04:24"
+      },
+      "-OqFNcX2GXJvWltCrVSQ": {
+        "label": 1,
+        "time": "2026-04-15 16:04:29"
+      },
+      "-OqFNdo-5cP9AWkVyBwH": {
+        "label": 1,
+        "time": "2026-04-15 16:04:35"
+      },
+      "-OqFNf4S4eQtP1tQZNDj": {
+        "label": 1,
+        "time": "2026-04-15 16:04:40"
+      },
+      "-OqFNgM23Qqx8LvuODMq": {
+        "label": 1,
+        "time": "2026-04-15 16:04:45"
+      },
+      "-OqFNhe315VMB0CF1K_j": {
+        "label": 1,
+        "time": "2026-04-15 16:04:50"
+      },
+      "-OqFNivekpuEMDaz_kE3": {
+        "label": 1,
+        "time": "2026-04-15 16:04:56"
+      },
+      "-OqFNkCHWa3_EbyA00rL": {
+        "label": 1,
+        "time": "2026-04-15 16:05:01"
+      },
+      "-OqFNlUXGonzMldk656p": {
+        "label": 1,
+        "time": "2026-04-15 16:05:06"
+      },
+      "-OqFNmlgAXBzhZdGLXD2": {
+        "label": 1,
+        "time": "2026-04-15 16:05:11"
+      },
+      "-OqFNo34CsdIR20MgIZ6": {
+        "label": 1,
+        "time": "2026-04-15 16:05:17"
+      },
+      "-OqFNpLuRJsG2NAE7T9d": {
+        "label": 1,
+        "time": "2026-04-15 16:05:22"
+      },
+      "-OqFNqd1CSjnJ77TGy3S": {
+        "label": 1,
+        "time": "2026-04-15 16:05:27"
+      },
+      "-OqFNrujkH3HkLi5LyL7": {
+        "label": 1,
+        "time": "2026-04-15 16:05:32"
+      },
+      "-OqFNtBN4SucNd57HbDn": {
+        "label": 1,
+        "time": "2026-04-15 16:05:38"
+      },
+      "-OqFNuWVADZ4bOUYZjCC": {
+        "label": 1,
+        "time": "2026-04-15 16:05:43"
+      },
+      "-OqFNvn4QyUgRy6yEuFu": {
+        "label": 1,
+        "time": "2026-04-15 16:05:48"
+      },
+      "-OqFNx672tQKyiQ4i6nw": {
+        "label": 1,
+        "time": "2026-04-15 16:05:54"
+      },
+      "-OqFNyNaaVoi8Vrc9ziv": {
+        "label": 1,
+        "time": "2026-04-15 16:05:59"
+      },
+      "-OqFNzeCSM4atnt9JfUe": {
+        "label": 1,
+        "time": "2026-04-15 16:06:04"
+      },
+      "-OqFO-vk1j-5ekREl9Ju": {
+        "label": 0,
+        "time": "2026-04-15 16:06:09"
+      },
+      "-OqFO1CEpJD_2x2ZTsfe": {
+        "label": 1,
+        "time": "2026-04-15 16:06:14"
+      },
+      "-OqFO2VNd2oFKEyu2Lda": {
+        "label": 1,
+        "time": "2026-04-15 16:06:20"
+      },
+      "-OqFO3n_5JJIBEzySCeq": {
+        "label": 1,
+        "time": "2026-04-15 16:06:25"
+      },
+      "-OqFO54nTfKSgFkWYPl9": {
+        "label": 1,
+        "time": "2026-04-15 16:06:30"
+      },
+      "-OqFO6Mf064QfWQcawLV": {
+        "label": 1,
+        "time": "2026-04-15 16:06:36"
+      },
+      "-OqFO7lREgKBNjcM4TkP": {
+        "label": 1,
+        "time": "2026-04-15 16:06:41"
+      },
+      "-OqFO92lnREWGXpL2W79": {
+        "label": 1,
+        "time": "2026-04-15 16:06:47"
+      },
+      "-OqFOAKyiNxJ2ml4bTgk": {
+        "label": 1,
+        "time": "2026-04-15 16:06:52"
+      },
+      "-OqFOBbyIhCdISyI_fYM": {
+        "label": 1,
+        "time": "2026-04-15 16:06:57"
+      },
+      "-OqFOCtyBPZZb4ZzEfkU": {
+        "label": 1,
+        "time": "2026-04-15 16:07:02"
+      },
+      "-OqFOEB5dtq0GrCb5mfL": {
+        "label": 1,
+        "time": "2026-04-15 16:07:08"
+      },
+      "-OqFOFSvku1N8fZd-zNW": {
+        "label": 1,
+        "time": "2026-04-15 16:07:13"
+      },
+      "-OqFOGkBOo33HeYBSaIM": {
+        "label": 1,
+        "time": "2026-04-15 16:07:18"
+      },
+      "-OqFOI1MCS-Y7N3fDUkx": {
+        "label": 1,
+        "time": "2026-04-15 16:07:23"
+      },
+      "-OqFOJKuIjzvPJAZazVJ": {
+        "label": 1,
+        "time": "2026-04-15 16:07:29"
+      },
+      "-OqFOKcSmF9iiKeNnM3O": {
+        "label": 1,
+        "time": "2026-04-15 16:07:34"
+      },
+      "-OqFOLuwFQLXic4qZkRd": {
+        "label": 1,
+        "time": "2026-04-15 16:07:39"
+      },
+      "-OqFONC2-95ZvFO9moSX": {
+        "label": 1,
+        "time": "2026-04-15 16:07:45"
+      },
+      "-OqFOOU8QzTaE5QaXm30": {
+        "label": 1,
+        "time": "2026-04-15 16:07:50"
+      },
+      "-OqFOPl90UPrzia5Zf_6": {
+        "label": 1,
+        "time": "2026-04-15 16:07:55"
+      },
+      "-OqFOR30MunMp-QEFoCg": {
+        "label": 1,
+        "time": "2026-04-15 16:08:00"
+      },
+      "-OqFOSL0r9nPwE4CNWoa": {
+        "label": 1,
+        "time": "2026-04-15 16:08:06"
+      },
+      "-OqFOTcdz0s0obgbq_QH": {
+        "label": 1,
+        "time": "2026-04-15 16:08:11"
+      },
+      "-OqFOUugS8T1NsXfEzcP": {
+        "label": 1,
+        "time": "2026-04-15 16:08:16"
+      },
+      "-OqFOWBkUc3G4zeyK6sN": {
+        "label": 1,
+        "time": "2026-04-15 16:08:21"
+      },
+      "-OqFOXTjlmml0TnE8mbQ": {
+        "label": 1,
+        "time": "2026-04-15 16:08:27"
+      },
+      "-OqFOYlff2n1gjysc_rL": {
+        "label": 1,
+        "time": "2026-04-15 16:08:32"
+      },
+      "-OqFO_2h0BTi1blSPKuH": {
+        "label": 1,
+        "time": "2026-04-15 16:08:37"
+      },
+      "-OqFOaKkq8s6Za5VuC9T": {
+        "label": 1,
+        "time": "2026-04-15 16:08:42"
+      },
+      "-OqFObc6CcGld16kGFWc": {
+        "label": 3,
+        "time": "2026-04-15 16:08:48"
+      },
+      "-OqFOcuHh7dCgxZAu4_D": {
+        "label": 3,
+        "time": "2026-04-15 16:08:53"
+      },
+      "-OqFOeBPGOoQA9fvVE40": {
+        "label": 1,
+        "time": "2026-04-15 16:08:58"
+      },
+      "-OqFOfTm4YLDeldWeWzC": {
+        "label": 1,
+        "time": "2026-04-15 16:09:04"
+      },
+      "-OqFOgmlZWsmHXIrBDcp": {
+        "label": 1,
+        "time": "2026-04-15 16:09:09"
+      },
+      "-OqFOi40pP46TdUjpAvE": {
+        "label": 1,
+        "time": "2026-04-15 16:09:14"
+      },
+      "-OqFOjMXKIm0yuwSzMfi": {
+        "label": 1,
+        "time": "2026-04-15 16:09:19"
+      },
+      "-OqFOkdypb0HTtQUCof6": {
+        "label": 1,
+        "time": "2026-04-15 16:09:25"
+      },
+      "-OqFOlwNY1khfFVrSvRm": {
+        "label": 1,
+        "time": "2026-04-15 16:09:30"
+      },
+      "-OqFOnFKdM0cANBk4EEG": {
+        "label": 1,
+        "time": "2026-04-15 16:09:35"
+      },
+      "-OqFOoYmSVZHAGQ2olv9": {
+        "label": 1,
+        "time": "2026-04-15 16:09:41"
+      },
+      "-OqFOq1z_VnOzSc5GpPf": {
+        "label": 1,
+        "time": "2026-04-15 16:09:47"
+      },
+      "-OqFOrJpXGw9DIs1OxKx": {
+        "label": 1,
+        "time": "2026-04-15 16:09:52"
+      },
+      "-OqFOsaDpfbWVedAer54": {
+        "label": 1,
+        "time": "2026-04-15 16:09:57"
+      },
+      "-OqFOtroWoqWZFR2J2kL": {
+        "label": 0,
+        "time": "2026-04-15 16:10:02"
+      },
+      "-OqFOv8YNqSBGSlrLUy8": {
+        "label": 1,
+        "time": "2026-04-15 16:10:08"
+      },
+      "-OqFOwQMBFLnaUDZ5k3R": {
+        "label": 1,
+        "time": "2026-04-15 16:10:13"
+      },
+      "-OqFOxhB5Fn9bWb6VN6E": {
+        "label": 0,
+        "time": "2026-04-15 16:10:18"
+      },
+      "-OqFOyz0wLBQzyOaj0jk": {
+        "label": 1,
+        "time": "2026-04-15 16:10:23"
+      },
+      "-OqFP-G8xG35oNIsR2GX": {
+        "label": 1,
+        "time": "2026-04-15 16:10:29"
+      },
+      "-OqFP0abeI-wKsJbE3vD": {
+        "label": 1,
+        "time": "2026-04-15 16:10:34"
+      },
+      "-OqFP1t4Jdj_2Q11R_J4": {
+        "label": 1,
+        "time": "2026-04-15 16:10:39"
+      },
+      "-OqFP3A4nXXZio23Ry7C": {
+        "label": 1,
+        "time": "2026-04-15 16:10:45"
+      },
+      "-OqFP4SN-MtV1nLxz99r": {
+        "label": 1,
+        "time": "2026-04-15 16:10:50"
+      },
+      "-OqFP5jf_MDQ0tAMFGfi": {
+        "label": 1,
+        "time": "2026-04-15 16:10:55"
+      },
+      "-OqFP72tNIihC-xgI1t_": {
+        "label": 1,
+        "time": "2026-04-15 16:11:01"
+      },
+      "-OqFP8Pd7Ra_quolEaU0": {
+        "label": 1,
+        "time": "2026-04-15 16:11:06"
+      },
+      "-OqFP9hahCoTp5tVC9_a": {
+        "label": 1,
+        "time": "2026-04-15 16:11:11"
+      },
+      "-OqFPAzfay0ssnJfAJ1u": {
+        "label": 1,
+        "time": "2026-04-15 16:11:17"
+      },
+      "-OqFPCGl-O_2xjLQgkOV": {
+        "label": 1,
+        "time": "2026-04-15 16:11:22"
+      },
+      "-OqFPDZGY2rcqIy2Uihu": {
+        "label": 1,
+        "time": "2026-04-15 16:11:27"
+      },
+      "-OqFPEqRAinkWRAId0hb": {
+        "label": 1,
+        "time": "2026-04-15 16:11:33"
+      },
+      "-OqFPG71_vParuJ-7TfO": {
+        "label": 1,
+        "time": "2026-04-15 16:11:38"
+      },
+      "-OqFPHSQl7Uw47H-Z33o": {
+        "label": 1,
+        "time": "2026-04-15 16:11:43"
+      },
+      "-OqFPIjRKhYTHTfIJcTT": {
+        "label": 1,
+        "time": "2026-04-15 16:11:48"
+      },
+      "-OqFPK06qYQqakY2H7ZY": {
+        "label": 1,
+        "time": "2026-04-15 16:11:54"
+      },
+      "-OqFPLIDNXxmyffmDpUe": {
+        "label": 1,
+        "time": "2026-04-15 16:11:59"
+      },
+      "-OqFPMZzrMKAYataiN4G": {
+        "label": 1,
+        "time": "2026-04-15 16:12:04"
+      },
+      "-OqFPNqPc9h4jqxLF08S": {
+        "label": 1,
+        "time": "2026-04-15 16:12:09"
+      },
+      "-OqFPP7ZQpvuEiWYcc3i": {
+        "label": 1,
+        "time": "2026-04-15 16:12:15"
+      },
+      "-OqFPQP40-TIxBp2AQkX": {
+        "label": 1,
+        "time": "2026-04-15 16:12:20"
+      },
+      "-OqFPRgHeclMiZneuLda": {
+        "label": 1,
+        "time": "2026-04-15 16:12:25"
+      },
+      "-OqFPSyNgov0Mx4hxCGu": {
+        "label": 1,
+        "time": "2026-04-15 16:12:30"
+      },
+      "-OqFPUEzpXCArGjf_9wX": {
+        "label": 1,
+        "time": "2026-04-15 16:12:36"
+      },
+      "-OqFPVWxSYgG-L3VaQYV": {
+        "label": 1,
+        "time": "2026-04-15 16:12:41"
+      },
+      "-OqFPWstCVtABZTDfqso": {
+        "label": 1,
+        "time": "2026-04-15 16:12:46"
+      },
+      "-OqFPYDcDjLifozdiqau": {
+        "label": 1,
+        "time": "2026-04-15 16:12:52"
+      },
+      "-OqFPZVEQkjvck8b2BO8": {
+        "label": 1,
+        "time": "2026-04-15 16:12:57"
+      },
+      "-OqFP_mDhwC_IzSNMHQ2": {
+        "label": 1,
+        "time": "2026-04-15 16:13:02"
+      },
+      "-OqFPb2zaCdDEKqHwwWW": {
+        "label": 1,
+        "time": "2026-04-15 16:13:08"
+      },
+      "-OqFPcKfZfzP-y487LTd": {
+        "label": 1,
+        "time": "2026-04-15 16:13:13"
+      },
+      "-OqFPdbMOCEldM6Zz_1K": {
+        "label": 1,
+        "time": "2026-04-15 16:13:18"
+      },
+      "-OqFPetmWSM4ABRzUmFU": {
+        "label": 1,
+        "time": "2026-04-15 16:13:23"
+      },
+      "-OqFPgATmpyjnH-DXFi2": {
+        "label": 1,
+        "time": "2026-04-15 16:13:29"
+      },
+      "-OqFPhSDoQ7VYW17snjL": {
+        "label": 1,
+        "time": "2026-04-15 16:13:34"
+      },
+      "-OqFPij1P4x0pxsfFqsL": {
+        "label": 1,
+        "time": "2026-04-15 16:13:39"
+      },
+      "-OqFPk0-iWVwdaUUlg5O": {
+        "label": 1,
+        "time": "2026-04-15 16:13:44"
+      },
+      "-OqFPlIpG8iuHLtn85mL": {
+        "label": 1,
+        "time": "2026-04-15 16:13:50"
+      },
+      "-OqFPmc6OWFbcSEmNOVl": {
+        "label": 1,
+        "time": "2026-04-15 16:13:55"
+      },
+      "-OqFPnu-yrMQB0_ofjDq": {
+        "label": 1,
+        "time": "2026-04-15 16:14:00"
+      },
+      "-OqFPpAs5vI_LT7jaFyW": {
+        "label": 1,
+        "time": "2026-04-15 16:14:05"
+      },
+      "-OqFPqSuUCob-1bGFpi_": {
+        "label": 0,
+        "time": "2026-04-15 16:14:11"
+      },
+      "-OqFPrkBDPo3e2Pcl8po": {
+        "label": 0,
+        "time": "2026-04-15 16:14:16"
+      },
+      "-OqFPt3M0wP10MDmpL1g": {
+        "label": 1,
+        "time": "2026-04-15 16:14:21"
+      },
+      "-OqFPuLGeVbWeSxqRhyz": {
+        "label": 1,
+        "time": "2026-04-15 16:14:27"
+      },
+      "-OqFPvbna6k0pdaXhbRN": {
+        "label": 1,
+        "time": "2026-04-15 16:14:32"
+      },
+      "-OqFPwtgCAMxR0QwU-uK": {
+        "label": 1,
+        "time": "2026-04-15 16:14:37"
+      },
+      "-OqFPyAlAWLb5rD-kSiL": {
+        "label": 1,
+        "time": "2026-04-15 16:14:42"
+      },
+      "-OqFPzSogHieTDJRS2zB": {
+        "label": 1,
+        "time": "2026-04-15 16:14:48"
+      },
+      "-OqFQ-kWmrlxdMC22VC6": {
+        "label": 1,
+        "time": "2026-04-15 16:14:53"
+      },
+      "-OqFQ11Kt9DXU4QgAomt": {
+        "label": 1,
+        "time": "2026-04-15 16:14:58"
+      },
+      "-OqFQ2IynfUhzoA8ocGJ": {
+        "label": 1,
+        "time": "2026-04-15 16:15:03"
+      },
+      "-OqFQ3bX8z50aBj-l79m": {
+        "label": 1,
+        "time": "2026-04-15 16:15:09"
+      },
+      "-OqFQ4tDBDP7ZM-ZIMFU": {
+        "label": 1,
+        "time": "2026-04-15 16:15:14"
+      },
+      "-OqFQ6AipvoD4oC3Kt0C": {
+        "label": 1,
+        "time": "2026-04-15 16:15:19"
+      },
+      "-OqFQ7Sfr0Cl1FiFvZMN": {
+        "label": 1,
+        "time": "2026-04-15 16:15:24"
+      },
+      "-OqFQ8jfdgD3cx0XIYvA": {
+        "label": 1,
+        "time": "2026-04-15 16:15:30"
+      },
+      "-OqFQA0YipUSo0eZ3Xwz": {
+        "label": 1,
+        "time": "2026-04-15 16:15:35"
+      },
+      "-OqFQBIFELQAclX8V199": {
+        "label": 1,
+        "time": "2026-04-15 16:15:40"
+      },
+      "-OqFQCa3TyKmLYl8jn2U": {
+        "label": 3,
+        "time": "2026-04-15 16:15:45"
+      },
+      "-OqFQE-E1xzTfCqVsmu0": {
+        "label": 3,
+        "time": "2026-04-15 16:15:51"
+      },
+      "-OqFQFMWfEvgIoZi6lKU": {
+        "label": 1,
+        "time": "2026-04-15 16:15:57"
+      },
+      "-OqFQGdfhwrFqyNLdZcy": {
+        "label": 1,
+        "time": "2026-04-15 16:16:02"
+      },
+      "-OqFQHw0HnYfbiOKLuED": {
+        "label": 1,
+        "time": "2026-04-15 16:16:07"
+      },
+      "-OqFQJDSEYzu9xFvhwqL": {
+        "label": 1,
+        "time": "2026-04-15 16:16:13"
+      },
+      "-OqFQKV4IQIG3-76KT0n": {
+        "label": 1,
+        "time": "2026-04-15 16:16:18"
+      },
+      "-OqFQLmEROPF0Q0d6WVD": {
+        "label": 1,
+        "time": "2026-04-15 16:16:23"
+      },
+      "-OqFQN2xl4d_DSWg6x0l": {
+        "label": 1,
+        "time": "2026-04-15 16:16:28"
+      },
+      "-OqFQOKic8pc20VbcON7": {
+        "label": 1,
+        "time": "2026-04-15 16:16:34"
+      },
+      "-OqFQPbEOZuLSEJtfouk": {
+        "label": 0,
+        "time": "2026-04-15 16:16:39"
+      },
+      "-OqFQQt7trG2MT66dHzs": {
+        "label": 0,
+        "time": "2026-04-15 16:16:44"
+      },
+      "-OqFQS9ruEydoD7mQSnT": {
+        "label": 0,
+        "time": "2026-04-15 16:16:49"
+      },
+      "-OqFQTTG0T6ZtizypNkx": {
+        "label": 0,
+        "time": "2026-04-15 16:16:55"
+      },
+      "-OqFQUl0dMW9J87DOlAU": {
+        "label": 0,
+        "time": "2026-04-15 16:17:00"
+      },
+      "-OqFQW1p5m3sGrLB81Nv": {
+        "label": 0,
+        "time": "2026-04-15 16:17:05"
+      },
+      "-OqFQXK7cdkv-bUEt82A": {
+        "label": 1,
+        "time": "2026-04-15 16:17:10"
+      },
+      "-OqFQYapoOfz3XcTtHIm": {
+        "label": 1,
+        "time": "2026-04-15 16:17:16"
+      },
+      "-OqFQZsi-4Oo8D9N7pN8": {
+        "label": 1,
+        "time": "2026-04-15 16:17:21"
+      },
+      "-OqFQa9xwfIs04jA6ows": {
+        "label": 1,
+        "time": "2026-04-15 16:17:26"
+      },
+      "-OqFQbRU_pMtKbRxQ71s": {
+        "label": 0,
+        "time": "2026-04-15 16:17:31"
+      },
+      "-OqFQciNxbJkaH7nYuFU": {
+        "label": 1,
+        "time": "2026-04-15 16:17:37"
+      },
+      "-OqFQe-JNyooOzt0AudY": {
+        "label": 1,
+        "time": "2026-04-15 16:17:42"
+      },
+      "-OqFQfHAyDN6Gs0kgoLv": {
+        "label": 0,
+        "time": "2026-04-15 16:17:47"
+      },
+      "-OqFQgYsoSmA3fNZcjcn": {
+        "label": 0,
+        "time": "2026-04-15 16:17:52"
+      },
+      "-OqFQhpfkX1Ez5cSzCwq": {
+        "label": 1,
+        "time": "2026-04-15 16:17:57"
+      },
+      "-OqFQj7CPd6PfYmoRDsZ": {
+        "label": 1,
+        "time": "2026-04-15 16:18:03"
+      },
+      "-OqFQkPJ3FptC2xKPcm0": {
+        "label": 0,
+        "time": "2026-04-15 16:18:08"
+      },
+      "-OqFQlgFrD15vjA-6dJC": {
+        "label": 0,
+        "time": "2026-04-15 16:18:13"
+      },
+      "-OqFQmy4gVilNtutwzPK": {
+        "label": 0,
+        "time": "2026-04-15 16:18:19"
+      },
+      "-OqFQoHlK5jBaPiJysax": {
+        "label": 0,
+        "time": "2026-04-15 16:18:24"
+      },
+      "-OqFQpZyS9IhHBC9fBKR": {
+        "label": 0,
+        "time": "2026-04-15 16:18:29"
+      },
+      "-OqFQqqhdn_I4zy-7hHR": {
+        "label": 0,
+        "time": "2026-04-15 16:18:34"
+      },
+      "-OqFQs7WEwzJi5T74nlx": {
+        "label": 0,
+        "time": "2026-04-15 16:18:40"
+      },
+      "-OqFQtPA6k2kH3x9wNp_": {
+        "label": 0,
+        "time": "2026-04-15 16:18:45"
+      },
+      "-OqFQuflLW8sppjQn1kv": {
+        "label": 0,
+        "time": "2026-04-15 16:18:50"
+      },
+      "-OqFQw0TJjru_SsJAFaq": {
+        "label": 0,
+        "time": "2026-04-15 16:18:56"
+      },
+      "-OqFQxMIErgybocTygb9": {
+        "label": 3,
+        "time": "2026-04-15 16:19:01"
+      },
+      "-OqFQydtzYJS3wx-SQ_u": {
+        "label": 3,
+        "time": "2026-04-15 16:19:06"
+      },
+      "-OqFQzvhCSlxKs8PzwcV": {
+        "label": 1,
+        "time": "2026-04-15 16:19:12"
+      },
+      "-OqFR0CfJk2A0VhVK5Pd": {
+        "label": 1,
+        "time": "2026-04-15 16:19:17"
+      },
+      "-OqFR1UeFrtcTVrvQmz9": {
+        "label": 0,
+        "time": "2026-04-15 16:19:22"
+      },
+      "-OqFR2lPrQnhgXEDOj-B": {
+        "label": 0,
+        "time": "2026-04-15 16:19:27"
+      },
+      "-OqFR43wjU3_a36DU3vt": {
+        "label": 0,
+        "time": "2026-04-15 16:19:33"
+      },
+      "-OqFR5Mx6tMxIE26e8qM": {
+        "label": 0,
+        "time": "2026-04-15 16:19:38"
+      },
+      "-OqFR6fNUDQFDzLiCDzZ": {
+        "label": 0,
+        "time": "2026-04-15 16:19:43"
+      },
+      "-OqFR7xCcQXGfatqlbei": {
+        "label": 1,
+        "time": "2026-04-15 16:19:49"
+      },
+      "-OqFR9Dx1W1Kbsr9xzzJ": {
+        "label": 3,
+        "time": "2026-04-15 16:19:54"
+      },
+      "-OqFRAXU0TWlkP3UVQ-K": {
+        "label": 1,
+        "time": "2026-04-15 16:19:59"
+      },
+      "-OqFRBoG0hIxYl4SsXSO": {
+        "label": 1,
+        "time": "2026-04-15 16:20:04"
+      },
+      "-OqFRD6AmL-vDUm1bz-p": {
+        "label": 1,
+        "time": "2026-04-15 16:20:10"
+      },
+      "-OqFREOHSFOjDkbW-XVG": {
+        "label": 1,
+        "time": "2026-04-15 16:20:15"
+      },
+      "-OqFRFhJ0k8lMu2SmdO5": {
+        "label": 1,
+        "time": "2026-04-15 16:20:20"
+      },
+      "-OqFRGz8KVIo2oTAhHRe": {
+        "label": 1,
+        "time": "2026-04-15 16:20:26"
+      },
+      "-OqFRIGNYkj5K-9d-o-F": {
+        "label": 1,
+        "time": "2026-04-15 16:20:31"
+      },
+      "-OqFRJY1T5YgpzCOcQ-O": {
+        "label": 1,
+        "time": "2026-04-15 16:20:36"
+      },
+      "-OqFRKopVF69Iee5C0lE": {
+        "label": 1,
+        "time": "2026-04-15 16:20:41"
+      },
+      "-OqFRM5YmigAmwcm2XTm": {
+        "label": 1,
+        "time": "2026-04-15 16:20:47"
+      },
+      "-OqFRNNcq3EtrdpjhYbJ": {
+        "label": 3,
+        "time": "2026-04-15 16:20:52"
+      },
+      "-OqFROeBx_uhHVqv5u4K": {
+        "label": 3,
+        "time": "2026-04-15 16:20:57"
+      },
+      "-OqFRPvxGueDL6Dd2DNI": {
+        "label": 1,
+        "time": "2026-04-15 16:21:02"
+      },
+      "-OqFRRCn2NO8XvR5uv1m": {
+        "label": 1,
+        "time": "2026-04-15 16:21:07"
+      },
+      "-OqFRSVatwQk1sR6rWBE": {
+        "label": 1,
+        "time": "2026-04-15 16:21:13"
+      },
+      "-OqFRTmUdC-G_pVWbCcb": {
+        "label": 1,
+        "time": "2026-04-15 16:21:18"
+      },
+      "-OqFRV3R3RUf0-HWNBSA": {
+        "label": 1,
+        "time": "2026-04-15 16:21:23"
+      },
+      "-OqFRWLIDm62vRxZMlrv": {
+        "label": 1,
+        "time": "2026-04-15 16:21:28"
+      },
+      "-OqFRXbzXexc_YzmfIrN": {
+        "label": 1,
+        "time": "2026-04-15 16:21:34"
+      },
+      "-OqFRYtgVC1kWpL9RyM_": {
+        "label": 1,
+        "time": "2026-04-15 16:21:39"
+      },
+      "-OqFR_AGEMURRViPvEtF": {
+        "label": 1,
+        "time": "2026-04-15 16:21:44"
+      },
+      "-OqFRaRzM63gvUDSI_H2": {
+        "label": 1,
+        "time": "2026-04-15 16:21:49"
+      },
+      "-OqFRbieY4CVr0WWCeqi": {
+        "label": 1,
+        "time": "2026-04-15 16:21:55"
+      },
+      "-OqFRd6nAvZQeHw7A7xn": {
+        "label": 1,
+        "time": "2026-04-15 16:22:00"
+      },
+      "-OqFReT__jB-7L4zKUl8": {
+        "label": 1,
+        "time": "2026-04-15 16:22:06"
+      },
+      "-OqFRfkHhtFl_6hCxF4U": {
+        "label": 1,
+        "time": "2026-04-15 16:22:11"
+      },
+      "-OqFRh4I1JPvh2NFV_w6": {
+        "label": 1,
+        "time": "2026-04-15 16:22:17"
+      },
+      "-OqFRiNBEeaigcUgB1yo": {
+        "label": 1,
+        "time": "2026-04-15 16:22:22"
+      },
+      "-OqFRjeW_k1THUcV7-4N": {
+        "label": 1,
+        "time": "2026-04-15 16:22:27"
+      },
+      "-OqFRkwEyCB2WMDmuUyO": {
+        "label": 1,
+        "time": "2026-04-15 16:22:32"
+      },
+      "-OqFRmCsHQ9PCCsU4JlD": {
+        "label": 1,
+        "time": "2026-04-15 16:22:38"
+      },
+      "-OqFRnUo2YBxGpwDicWz": {
+        "label": 1,
+        "time": "2026-04-15 16:22:43"
+      },
+      "-OqFRoluNnAc9pDhrXtq": {
+        "label": 1,
+        "time": "2026-04-15 16:22:48"
+      },
+      "-OqFRq2rPwq0_VT_IE0U": {
+        "label": 1,
+        "time": "2026-04-15 16:22:53"
+      },
+      "-OqFRrLA2P9CGNmHhNHK": {
+        "label": 1,
+        "time": "2026-04-15 16:22:59"
+      },
+      "-OqFRsc9sZhlQXPc2fRr": {
+        "label": 1,
+        "time": "2026-04-15 16:23:04"
+      },
+      "-OqFRttz4cb8C6smGi3k": {
+        "label": 1,
+        "time": "2026-04-15 16:23:09"
+      },
+      "-OqFRvB3oIiNH16ssKms": {
+        "label": 1,
+        "time": "2026-04-15 16:23:14"
+      },
+      "-OqFRwTcUcVrAwRZ2E7D": {
+        "label": 1,
+        "time": "2026-04-15 16:23:20"
+      },
+      "-OqFRxkxBPtwlJGCpIJI": {
+        "label": 1,
+        "time": "2026-04-15 16:23:25"
+      },
+      "-OqFRz1dlejm0jMjFHz0": {
+        "label": 1,
+        "time": "2026-04-15 16:23:30"
+      },
+      "-OqFS-JmTJXWAqhZVMbE": {
+        "label": 1,
+        "time": "2026-04-15 16:23:35"
+      },
+      "-OqFS0bf3QsYDoEdSBit": {
+        "label": 1,
+        "time": "2026-04-15 16:23:41"
+      },
+      "-OqFS1tLCue-qLINciy6": {
+        "label": 1,
+        "time": "2026-04-15 16:23:46"
+      },
+      "-OqFS3AGkWEzZ849r2-8": {
+        "label": 1,
+        "time": "2026-04-15 16:23:51"
+      },
+      "-OqFS4SKbm2-zhqyBeeq": {
+        "label": 1,
+        "time": "2026-04-15 16:23:56"
+      },
+      "-OqFS5jI41iVNhciu_Ki": {
+        "label": 1,
+        "time": "2026-04-15 16:24:02"
+      },
+      "-OqFS70Gs-ODwmwhtwaI": {
+        "label": 1,
+        "time": "2026-04-15 16:24:07"
+      },
+      "-OqFS8ICDAb2Ig9E40r7": {
+        "label": 1,
+        "time": "2026-04-15 16:24:12"
+      },
+      "-OqFS9ZudkvTH6rg7XNQ": {
+        "label": 1,
+        "time": "2026-04-15 16:24:17"
+      },
+      "-OqFSAr_WHCC6QquMhNZ": {
+        "label": 1,
+        "time": "2026-04-15 16:24:23"
+      },
+      "-OqFSC8Vl9oikMwfr_HI": {
+        "label": 1,
+        "time": "2026-04-15 16:24:28"
+      },
+      "-OqFSDQEWcrU6I4l5lqn": {
+        "label": 1,
+        "time": "2026-04-15 16:24:33"
+      },
+      "-OqFSEhMKdq0RlXGnMVB": {
+        "label": 3,
+        "time": "2026-04-15 16:24:38"
+      },
+      "-OqFSFzAMVTahfck62RU": {
+        "label": 1,
+        "time": "2026-04-15 16:24:44"
+      },
+      "-OqFSHG7S9Gts4tXddyn": {
+        "label": 1,
+        "time": "2026-04-15 16:24:49"
+      },
+      "-OqFSIXnSccCbgMtrtD1": {
+        "label": 1,
+        "time": "2026-04-15 16:24:54"
+      },
+      "-OqFSJogiC-M_ARnWN-M": {
+        "label": 1,
+        "time": "2026-04-15 16:24:59"
+      },
+      "-OqFSL9o3qreLSOekZq_": {
+        "label": 1,
+        "time": "2026-04-15 16:25:05"
+      },
+      "-OqFSMVff9TR2Q5VObBv": {
+        "label": 1,
+        "time": "2026-04-15 16:25:10"
+      },
+      "-OqFSNmd36z1l2036OvL": {
+        "label": 1,
+        "time": "2026-04-15 16:25:16"
+      },
+      "-OqFSP3oBSAfGX4Ksg4m": {
+        "label": 1,
+        "time": "2026-04-15 16:25:21"
+      },
+      "-OqFSQMrloDZMNuII1rR": {
+        "label": 1,
+        "time": "2026-04-15 16:25:26"
+      },
+      "-OqFSRdtD1Gkh058sigS": {
+        "label": 1,
+        "time": "2026-04-15 16:25:31"
+      },
+      "-OqFSSvtZs6sT3I2WfRR": {
+        "label": 1,
+        "time": "2026-04-15 16:25:37"
+      },
+      "-OqFSUDFw4YCdsUE11P2": {
+        "label": 1,
+        "time": "2026-04-15 16:25:42"
+      },
+      "-OqFSVV3FKPxwRvGmc-F": {
+        "label": 1,
+        "time": "2026-04-15 16:25:47"
+      },
+      "-OqFSWm_MDhCtDaTYSYs": {
+        "label": 1,
+        "time": "2026-04-15 16:25:52"
+      },
+      "-OqFSY4GqOnPm3fAqg6F": {
+        "label": 1,
+        "time": "2026-04-15 16:25:58"
+      },
+      "-OqFSZLxZW_FIhPyxD57": {
+        "label": 1,
+        "time": "2026-04-15 16:26:03"
+      },
+      "-OqFS_fHc0cCkR1CePuz": {
+        "label": 1,
+        "time": "2026-04-15 16:26:08"
+      },
+      "-OqFSaxGvAEY4YkkbCiM": {
+        "label": 1,
+        "time": "2026-04-15 16:26:14"
+      },
+      "-OqFScE8gO50R6-I4UBC": {
+        "label": 1,
+        "time": "2026-04-15 16:26:19"
+      },
+      "-OqFSdWLQLRkICNj7lFs": {
+        "label": 1,
+        "time": "2026-04-15 16:26:24"
+      },
+      "-OqFSenrzGK37ieGL4IF": {
+        "label": 1,
+        "time": "2026-04-15 16:26:29"
+      },
+      "-OqFSg6ZjRkLl0RJXbsT": {
+        "label": 1,
+        "time": "2026-04-15 16:26:35"
+      },
+      "-OqFShOc1LgUGIIDN90b": {
+        "label": 1,
+        "time": "2026-04-15 16:26:40"
+      },
+      "-OqFSifRRWypvj6KzwnV": {
+        "label": 1,
+        "time": "2026-04-15 16:26:45"
+      },
+      "-OqFSjy0-2wvjwzP_R6c": {
+        "label": 1,
+        "time": "2026-04-15 16:26:51"
+      },
+      "-OqFSlGZAD9T5aGg5P1z": {
+        "label": 1,
+        "time": "2026-04-15 16:26:56"
+      },
+      "-OqFSmcEEak6KVnSIudP": {
+        "label": 1,
+        "time": "2026-04-15 16:27:01"
+      },
+      "-OqFSnu8SuoWQBNtzb4E": {
+        "label": 1,
+        "time": "2026-04-15 16:27:07"
+      },
+      "-OqFSpBISPxcX4dhGSWj": {
+        "label": 1,
+        "time": "2026-04-15 16:27:12"
+      },
+      "-OqFSqTFpYXTXCBRjns-": {
+        "label": 1,
+        "time": "2026-04-15 16:27:17"
+      },
+      "-OqFSrkEBKQDy17W_oJP": {
+        "label": 1,
+        "time": "2026-04-15 16:27:22"
+      },
+      "-OqFSt123GckEm2vRwJ1": {
+        "label": 1,
+        "time": "2026-04-15 16:27:28"
+      },
+      "-OqFSuJk4HG7umxS9-Cj": {
+        "label": 1,
+        "time": "2026-04-15 16:27:33"
+      },
+      "-OqFSvadIpdiVAZRXQ9M": {
+        "label": 1,
+        "time": "2026-04-15 16:27:38"
+      },
+      "-OqFSwsw6TIaG1nFx1YT": {
+        "label": 1,
+        "time": "2026-04-15 16:27:43"
+      },
+      "-OqFSyAS4pVA_JO0tWt2": {
+        "label": 1,
+        "time": "2026-04-15 16:27:49"
+      },
+      "-OqFSzUl2hiO6vmMJKVI": {
+        "label": 1,
+        "time": "2026-04-15 16:27:54"
+      },
+      "-OqFT-ldBtuf_RbxDDye": {
+        "label": 1,
+        "time": "2026-04-15 16:27:59"
+      },
+      "-OqFT17U2Gke4qQgEknb": {
+        "label": 1,
+        "time": "2026-04-15 16:28:05"
+      },
+      "-OqFT2TY7p8wCL1qx3kM": {
+        "label": 1,
+        "time": "2026-04-15 16:28:10"
+      },
+      "-OqFT3kcRKw9KNvAK9Vc": {
+        "label": 1,
+        "time": "2026-04-15 16:28:16"
+      },
+      "-OqFT51cMNV_d_LLUGbT": {
+        "label": 1,
+        "time": "2026-04-15 16:28:21"
+      },
+      "-OqFT6JQrIwRyoTnwA-E": {
+        "label": 1,
+        "time": "2026-04-15 16:28:26"
+      },
+      "-OqFT7aDNrssB-d_7G2a": {
+        "label": 1,
+        "time": "2026-04-15 16:28:31"
+      },
+      "-OqFT8t9xab-_Z-IM0GI": {
+        "label": 1,
+        "time": "2026-04-15 16:28:37"
+      },
+      "-OqFTAAEr0zgqJCVqHX_": {
+        "label": 1,
+        "time": "2026-04-15 16:28:42"
+      },
+      "-OqFTBRza7JHUPBgWn9e": {
+        "label": 1,
+        "time": "2026-04-15 16:28:47"
+      },
+      "-OqFTCizlVcb_vETOdgl": {
+        "label": 1,
+        "time": "2026-04-15 16:28:52"
+      },
+      "-OqFTE-fetf_Y8Sjw-su": {
+        "label": 1,
+        "time": "2026-04-15 16:28:58"
+      },
+      "-OqFTFHN7evwrbk8vGOh": {
+        "label": 1,
+        "time": "2026-04-15 16:29:03"
+      },
+      "-OqFTGZ3f9RX94bMCpgM": {
+        "label": 1,
+        "time": "2026-04-15 16:29:08"
+      },
+      "-OqFTHqLGo9pdJFMTwoR": {
+        "label": 1,
+        "time": "2026-04-15 16:29:13"
+      },
+      "-OqFTJ7IFH5Mo4icTMTn": {
+        "label": 1,
+        "time": "2026-04-15 16:29:19"
+      },
+      "-OqFTKPyqEAuVO4sfKCQ": {
+        "label": 1,
+        "time": "2026-04-15 16:29:24"
+      },
+      "-OqFTLghcjb2CEXznxI-": {
+        "label": 1,
+        "time": "2026-04-15 16:29:29"
+      },
+      "-OqFTMyNxDkamTa-yB9G": {
+        "label": 1,
+        "time": "2026-04-15 16:29:34"
+      },
+      "-OqFTOIbKVPt-CNaT4pF": {
+        "label": 1,
+        "time": "2026-04-15 16:29:40"
+      },
+      "-OqFTP_XTf7_RYpbHxoA": {
+        "label": 1,
+        "time": "2026-04-15 16:29:45"
+      },
+      "-OqFTQrb_j7-hIzCBU7I": {
+        "label": 1,
+        "time": "2026-04-15 16:29:50"
+      },
+      "-OqFTS8r4iJpbZ5tQU8Z": {
+        "label": 1,
+        "time": "2026-04-15 16:29:56"
+      },
+      "-OqFTTQwxJZCg1QWlJfe": {
+        "label": 1,
+        "time": "2026-04-15 16:30:01"
+      },
+      "-OqFTUhoqSAiiivWJ5ov": {
+        "label": 1,
+        "time": "2026-04-15 16:30:06"
+      },
+      "-OqFTVzlSMxxrTba3G2m": {
+        "label": 1,
+        "time": "2026-04-15 16:30:11"
+      },
+      "-OqFTXGygB13Jm1ioiyP": {
+        "label": 1,
+        "time": "2026-04-15 16:30:17"
+      },
+      "-OqFTYYnKIfqQYm8Qd5s": {
+        "label": 1,
+        "time": "2026-04-15 16:30:22"
+      },
+      "-OqFTZpZFCgMfPP-j7Jp": {
+        "label": 1,
+        "time": "2026-04-15 16:30:27"
+      },
+      "-OqFTa6RKM5KgBkhS_pe": {
+        "label": 1,
+        "time": "2026-04-15 16:30:32"
+      },
+      "-OqFTbOlymzSjapFOPOd": {
+        "label": 1,
+        "time": "2026-04-15 16:30:38"
+      },
+      "-OqFTci1lArI9flW10G9": {
+        "label": 1,
+        "time": "2026-04-15 16:30:43"
+      },
+      "-OqFTe-phiS6UvTW8yBF": {
+        "label": 1,
+        "time": "2026-04-15 16:30:48"
+      },
+      "-OqFTfH_4IM4acS5sU4E": {
+        "label": 1,
+        "time": "2026-04-15 16:30:53"
+      },
+      "-OqFTgZk0QFvqzU3fEsP": {
+        "label": 1,
+        "time": "2026-04-15 16:30:59"
+      },
+      "-OqFThqQ05zpXADrNBwk": {
+        "label": 1,
+        "time": "2026-04-15 16:31:04"
+      },
+      "-OqFTjBfuKLslLFG1ih1": {
+        "label": 1,
+        "time": "2026-04-15 16:31:10"
+      },
+      "-OqFTkXuGJpcP34PF7cq": {
+        "label": 1,
+        "time": "2026-04-15 16:31:15"
+      },
+      "-OqFTlpgfMnMzmA8EduJ": {
+        "label": 1,
+        "time": "2026-04-15 16:31:20"
+      },
+      "-OqFTn6lx8lr4p5eObN1": {
+        "label": 1,
+        "time": "2026-04-15 16:31:26"
+      },
+      "-OqFToOrjvKDJNgfceIe": {
+        "label": 1,
+        "time": "2026-04-15 16:31:31"
+      },
+      "-OqFTpgBt5Ctc89Vn-4g": {
+        "label": 1,
+        "time": "2026-04-15 16:31:36"
+      },
+      "-OqFTqyN62X863K2d2jI": {
+        "label": 1,
+        "time": "2026-04-15 16:31:41"
+      },
+      "-OqFTsGYSIqB0zYWIRtL": {
+        "label": 1,
+        "time": "2026-04-15 16:31:47"
+      },
+      "-OqFTtZC9RcwJK6N59Wa": {
+        "label": 1,
+        "time": "2026-04-15 16:31:52"
+      },
+      "-OqFTus4VcPXVB5k1eux": {
+        "label": 1,
+        "time": "2026-04-15 16:31:57"
+      },
+      "-OqFTw97_5_RaKVXiRI7": {
+        "label": 1,
+        "time": "2026-04-15 16:32:03"
+      },
+      "-OqFTxR2CGlujy-Ure8K": {
+        "label": 1,
+        "time": "2026-04-15 16:32:08"
+      },
+      "-OqFTyiaXDjpfUXWlRLO": {
+        "label": 1,
+        "time": "2026-04-15 16:32:13"
+      },
+      "-OqFU-2MKYQab6YqTaYd": {
+        "label": 1,
+        "time": "2026-04-15 16:32:19"
+      },
+      "-OqFU0MMLjXs2L73vJmh": {
+        "label": 1,
+        "time": "2026-04-15 16:32:24"
+      },
+      "-OqFU1dP34JylGIUj850": {
+        "label": 1,
+        "time": "2026-04-15 16:32:29"
+      },
+      "-OqFU2vO0b3OaZfxRwUZ": {
+        "label": 1,
+        "time": "2026-04-15 16:32:34"
+      },
+      "-OqFU4CTDOo7BC4DVYpp": {
+        "label": 1,
+        "time": "2026-04-15 16:32:40"
+      },
+      "-OqFU5UwPvzfcH20qOCA": {
+        "label": 1,
+        "time": "2026-04-15 16:32:45"
+      },
+      "-OqFU6nTTtsNyKucdKB9": {
+        "label": 1,
+        "time": "2026-04-15 16:32:50"
+      },
+      "-OqFU84i1ZtIIhkY0WLa": {
+        "label": 1,
+        "time": "2026-04-15 16:32:56"
+      },
+      "-OqFU9MvY78QRUftK0bV": {
+        "label": 1,
+        "time": "2026-04-15 16:33:01"
+      },
+      "-OqFUAdn9i_Enf_ZNWpU": {
+        "label": 1,
+        "time": "2026-04-15 16:33:06"
+      },
+      "-OqFUBvo_dTS6lKBhek_": {
+        "label": 1,
+        "time": "2026-04-15 16:33:11"
+      },
+      "-OqFUDCtxr0TTAii7cnZ": {
+        "label": 1,
+        "time": "2026-04-15 16:33:17"
+      },
+      "-OqFUEVPNZW5iSyxaACE": {
+        "label": 1,
+        "time": "2026-04-15 16:33:22"
+      },
+      "-OqFUFovgxpWSXoRSVV5": {
+        "label": 1,
+        "time": "2026-04-15 16:33:27"
+      },
+      "-OqFUH5uJi6855QlAInx": {
+        "label": 1,
+        "time": "2026-04-15 16:33:32"
+      },
+      "-OqFUIO8TKXQ9G9Es94U": {
+        "label": 1,
+        "time": "2026-04-15 16:33:38"
+      },
+      "-OqFUJf4sFbGP1CaqKmD": {
+        "label": 1,
+        "time": "2026-04-15 16:33:43"
+      },
+      "-OqFUKxFs7HiK4VF1NbZ": {
+        "label": 1,
+        "time": "2026-04-15 16:33:48"
+      },
+      "-OqFUMHs9wgDWopNPNUG": {
+        "label": 1,
+        "time": "2026-04-15 16:33:54"
+      },
+      "-OqFUN_8YXK8Gtm4H7Pc": {
+        "label": 1,
+        "time": "2026-04-15 16:33:59"
+      },
+      "-OqFUOtoCXHDsoLVs_oB": {
+        "label": 1,
+        "time": "2026-04-15 16:34:04"
+      },
+      "-OqFUQH938iZM4yD5jXK": {
+        "label": 1,
+        "time": "2026-04-15 16:34:10"
+      },
+      "-OqFURbtYF1gOkzsdsNR": {
+        "label": 1,
+        "time": "2026-04-15 16:34:16"
+      },
+      "-OqFUSu1ba_WcAJu9FMM": {
+        "label": 1,
+        "time": "2026-04-15 16:34:21"
+      },
+      "-OqFUUApXd4qdemWBSwl": {
+        "label": 1,
+        "time": "2026-04-15 16:34:26"
+      },
+      "-OqFUVSju8HAaOK-R15G": {
+        "label": 1,
+        "time": "2026-04-15 16:34:31"
+      },
+      "-OqFUWkCLR9dS3hClb4e": {
+        "label": 1,
+        "time": "2026-04-15 16:34:37"
+      },
+      "-OqFUY15xOM92GUzU5aK": {
+        "label": 1,
+        "time": "2026-04-15 16:34:42"
+      },
+      "-OqFUZIvJl7v7l2lkkV6": {
+        "label": 1,
+        "time": "2026-04-15 16:34:47"
+      },
+      "-OqFU__o688GJENbfdhQ": {
+        "label": 1,
+        "time": "2026-04-15 16:34:52"
+      },
+      "-OqFUasYQyTCI59Qgtbd": {
+        "label": 1,
+        "time": "2026-04-15 16:34:58"
+      },
+      "-OqFUcCXxeqCXw0m2sfp": {
+        "label": 1,
+        "time": "2026-04-15 16:35:03"
+      },
+      "-OqFUdUJkeeJL2-Wp8cM": {
+        "label": 1,
+        "time": "2026-04-15 16:35:08"
+      },
+      "-OqFUelfxMtciWsDDUE5": {
+        "label": 1,
+        "time": "2026-04-15 16:35:14"
+      },
+      "-OqFUg2__9c59wT4lz5u": {
+        "label": 1,
+        "time": "2026-04-15 16:35:19"
+      },
+      "-OqFUhK9i5q7OG7u2ExH": {
+        "label": 1,
+        "time": "2026-04-15 16:35:24"
+      },
+      "-OqFUiay4OUDabvN6seT": {
+        "label": 1,
+        "time": "2026-04-15 16:35:29"
+      },
+      "-OqFUjsl5BlKlFqeKq_l": {
+        "label": 1,
+        "time": "2026-04-15 16:35:34"
+      },
+      "-OqFUl9MX7o8rY6Vm4Qn": {
+        "label": 1,
+        "time": "2026-04-15 16:35:40"
+      },
+      "-OqFUmQrvHZxNC8FunHQ": {
+        "label": 1,
+        "time": "2026-04-15 16:35:45"
+      },
+      "-OqFUnhpyWxgPTFsosqk": {
+        "label": 1,
+        "time": "2026-04-15 16:35:50"
+      },
+      "-OqFUozivPfcTkROdjBv": {
+        "label": 1,
+        "time": "2026-04-15 16:35:55"
+      },
+      "-OqFUqH3MI3r5-VDlZHA": {
+        "label": 1,
+        "time": "2026-04-15 16:36:01"
+      },
+      "-OqFUrYpgxNADPvDaO5O": {
+        "label": 1,
+        "time": "2026-04-15 16:36:06"
+      },
+      "-OqFUspabGkESjB-qzGY": {
+        "label": 1,
+        "time": "2026-04-15 16:36:11"
+      },
+      "-OqFUu6p0ps2aTCoKfhO": {
+        "label": 1,
+        "time": "2026-04-15 16:36:16"
+      },
+      "-OqFUvP3QijnkFIn4iqj": {
+        "label": 1,
+        "time": "2026-04-15 16:36:22"
+      },
+      "-OqFUwgQNdw-eNlaJrIw": {
+        "label": 1,
+        "time": "2026-04-15 16:36:27"
+      },
+      "-OqFUxy276o4f_W6HhyB": {
+        "label": 1,
+        "time": "2026-04-15 16:36:32"
+      },
+      "-OqFUzEvE6liu2TV8Z_R": {
+        "label": 1,
+        "time": "2026-04-15 16:36:37"
+      },
+      "-OqFV-WUQzu_NioMAFrT": {
+        "label": 1,
+        "time": "2026-04-15 16:36:43"
+      },
+      "-OqFV0nBdJSwL76tnpN9": {
+        "label": 1,
+        "time": "2026-04-15 16:36:48"
+      },
+      "-OqFV23uS1pndd034tBI": {
+        "label": 1,
+        "time": "2026-04-15 16:36:53"
+      },
+      "-OqFV3L_UdkLiivN-ilC": {
+        "label": 1,
+        "time": "2026-04-15 16:36:58"
+      },
+      "-OqFV4dEKhD0fBgMzCaM": {
+        "label": 1,
+        "time": "2026-04-15 16:37:04"
+      },
+      "-OqFV5usVo7n8myq__rm": {
+        "label": 1,
+        "time": "2026-04-15 16:37:09"
+      },
+      "-OqFV7FCC0eX7IXdsxNH": {
+        "label": 1,
+        "time": "2026-04-15 16:37:14"
+      },
+      "-OqFV8_wtyunWcf8Q9Hs": {
+        "label": 1,
+        "time": "2026-04-15 16:37:20"
+      },
+      "-OqFV9roAwqZS5CVvkOF": {
+        "label": 1,
+        "time": "2026-04-15 16:37:25"
+      },
+      "-OqFVB8SR0v5JFbo-NFz": {
+        "label": 1,
+        "time": "2026-04-15 16:37:30"
+      },
+      "-OqFVCQ9m-k3c_nOPglD": {
+        "label": 1,
+        "time": "2026-04-15 16:37:35"
+      },
+      "-OqFVDhNGRBcmtmb2yH8": {
+        "label": 1,
+        "time": "2026-04-15 16:37:41"
+      },
+      "-OqFVEz7PVSWL86vfE89": {
+        "label": 1,
+        "time": "2026-04-15 16:37:46"
+      },
+      "-OqFVGFsOD_zQJZltblz": {
+        "label": 1,
+        "time": "2026-04-15 16:37:51"
+      },
+      "-OqFVHXROK64J9qHYMyw": {
+        "label": 1,
+        "time": "2026-04-15 16:37:56"
+      },
+      "-OqFVIoK_wgssxGlMX4P": {
+        "label": 1,
+        "time": "2026-04-15 16:38:02"
+      },
+      "-OqFVK5kfkoYb6kjCgTS": {
+        "label": 1,
+        "time": "2026-04-15 16:38:07"
+      },
+      "-OqFVLNNGL7NbJ0MmLRv": {
+        "label": 1,
+        "time": "2026-04-15 16:38:12"
+      },
+      "-OqFVMeVUe7PKDQBdjhD": {
+        "label": 1,
+        "time": "2026-04-15 16:38:17"
+      },
+      "-OqFVNyCPg8jVsoJ6afW": {
+        "label": 1,
+        "time": "2026-04-15 16:38:23"
+      },
+      "-OqFVPEtkZYOhxok9RPT": {
+        "label": 1,
+        "time": "2026-04-15 16:38:28"
+      },
+      "-OqFVQYBxR2GuxOwBYqu": {
+        "label": 1,
+        "time": "2026-04-15 16:38:33"
+      },
+      "-OqFVRoxFShgJXX_A472": {
+        "label": 1,
+        "time": "2026-04-15 16:38:39"
+      },
+      "-OqFVT61WqijAJhR9x2X": {
+        "label": 1,
+        "time": "2026-04-15 16:38:44"
+      },
+      "-OqFVUNy-qZI0rUA3LIa": {
+        "label": 1,
+        "time": "2026-04-15 16:38:49"
+      },
+      "-OqFVVeYJR5Y-RXFDn1i": {
+        "label": 1,
+        "time": "2026-04-15 16:38:54"
+      },
+      "-OqFVWwYkzETzT3XrRYg": {
+        "label": 1,
+        "time": "2026-04-15 16:39:00"
+      },
+      "-OqFVYJgZ5J8SO9Q0KSV": {
+        "label": 1,
+        "time": "2026-04-15 16:39:05"
+      },
+      "-OqFVZdRFzVHSNPaUskI": {
+        "label": 1,
+        "time": "2026-04-15 16:39:11"
+      },
+      "-OqFV_vkqwVrzDn08qdr": {
+        "label": 1,
+        "time": "2026-04-15 16:39:16"
+      },
+      "-OqFVbZz4ilTT1XWMb4t": {
+        "label": 1,
+        "time": "2026-04-15 16:39:23"
+      },
+      "-OqFVcr3UHIsa00cGg-T": {
+        "label": 1,
+        "time": "2026-04-15 16:39:28"
+      },
+      "-OqFVe9It5wRKbG5Dsra": {
+        "label": 1,
+        "time": "2026-04-15 16:39:33"
+      },
+      "-OqFVfR0ZT69LD97oSqk": {
+        "label": 1,
+        "time": "2026-04-15 16:39:38"
+      },
+      "-OqFVghp0so_UJzfVhDL": {
+        "label": 1,
+        "time": "2026-04-15 16:39:44"
+      },
+      "-OqFVhzmsAUC5K3fXt2W": {
+        "label": 1,
+        "time": "2026-04-15 16:39:49"
+      },
+      "-OqFVjGnKMvjuV1zc-Hy": {
+        "label": 1,
+        "time": "2026-04-15 16:39:54"
+      },
+      "-OqFVkYjzq0eY14Bs9K0": {
+        "label": 1,
+        "time": "2026-04-15 16:39:59"
+      },
+      "-OqFVlpbBKB6Jbkh1FYt": {
+        "label": 1,
+        "time": "2026-04-15 16:40:05"
+      },
+      "-OqFVn7275nl_e9C9NQZ": {
+        "label": 1,
+        "time": "2026-04-15 16:40:10"
+      },
+      "-OqFVoTrxVpoyLz0hyfX": {
+        "label": 1,
+        "time": "2026-04-15 16:40:15"
+      },
+      "-OqFVpq1aq0adLkbyvP3": {
+        "label": 1,
+        "time": "2026-04-15 16:40:21"
+      },
+      "-OqFVr7GeYDe2Hgc93A2": {
+        "label": 1,
+        "time": "2026-04-15 16:40:26"
+      },
+      "-OqFVsP7-OBPpHn-eeL4": {
+        "label": 1,
+        "time": "2026-04-15 16:40:32"
+      },
+      "-OqFVtgDUpEaBlXGHWrN": {
+        "label": 1,
+        "time": "2026-04-15 16:40:37"
+      },
+      "-OqFVuy7i2rHFbmi57-S": {
+        "label": 1,
+        "time": "2026-04-15 16:40:42"
+      },
+      "-OqFVwEnlNKD4FwZzeqH": {
+        "label": 1,
+        "time": "2026-04-15 16:40:47"
+      },
+      "-OqFVxWrgONXJR2wazex": {
+        "label": 1,
+        "time": "2026-04-15 16:40:52"
+      },
+      "-OqFVynPrS8cEnXiRzE5": {
+        "label": 1,
+        "time": "2026-04-15 16:40:58"
+      },
+      "-OqFW-40X41dvJP_oiqK": {
+        "label": 1,
+        "time": "2026-04-15 16:41:03"
+      },
+      "-OqFW0M6JkbhBENir2gw": {
+        "label": 1,
+        "time": "2026-04-15 16:41:08"
+      },
+      "-OqFW1ciN82ucoig7NtS": {
+        "label": 1,
+        "time": "2026-04-15 16:41:13"
+      },
+      "-OqFW2wXgkhDxQTrYnz1": {
+        "label": 1,
+        "time": "2026-04-15 16:41:19"
+      },
+      "-OqFW4DDvrE4Ff5qnCpT": {
+        "label": 1,
+        "time": "2026-04-15 16:41:24"
+      },
+      "-OqFW5VBYgcywaXGlneF": {
+        "label": 1,
+        "time": "2026-04-15 16:41:29"
+      },
+      "-OqFW6m6-BgFvbeK4n49": {
+        "label": 1,
+        "time": "2026-04-15 16:41:34"
+      },
+      "-OqFW83ckWfduh6k7-Ch": {
+        "label": 1,
+        "time": "2026-04-15 16:41:40"
+      },
+      "-OqFW9LMfKsL1EDNSGmq": {
+        "label": 1,
+        "time": "2026-04-15 16:41:45"
+      },
+      "-OqFWAc-nFbnSXcAWLPb": {
+        "label": 1,
+        "time": "2026-04-15 16:41:50"
+      },
+      "-OqFWBtYEog9LD7a2wFL": {
+        "label": 1,
+        "time": "2026-04-15 16:41:55"
+      },
+      "-OqFWDADHj9-7h-JBKEC": {
+        "label": 1,
+        "time": "2026-04-15 16:42:01"
+      },
+      "-OqFWESN-QhKTdG-S5Mg": {
+        "label": 1,
+        "time": "2026-04-15 16:42:06"
+      },
+      "-OqFWFkA1vtfhsBXc8_p": {
+        "label": 1,
+        "time": "2026-04-15 16:42:11"
+      },
+      "-OqFWH1EHOo30Pld9Pxz": {
+        "label": 1,
+        "time": "2026-04-15 16:42:16"
+      },
+      "-OqFWIJwpb6YbBFJqVXT": {
+        "label": 1,
+        "time": "2026-04-15 16:42:22"
+      },
+      "-OqFWJaUdb2e6kGSL6wI": {
+        "label": 1,
+        "time": "2026-04-15 16:42:27"
+      },
+      "-OqFWKsQ5urUklHmM4Es": {
+        "label": 1,
+        "time": "2026-04-15 16:42:32"
+      },
+      "-OqFWM95FGJAV3UmFhDg": {
+        "label": 1,
+        "time": "2026-04-15 16:42:37"
+      },
+      "-OqFWNRO6qNYsXE2uKTU": {
+        "label": 1,
+        "time": "2026-04-15 16:42:43"
+      },
+      "-OqFWOikQ9c3buftkuTA": {
+        "label": 1,
+        "time": "2026-04-15 16:42:48"
+      },
+      "-OqFWQ-MVqnk-VylqZIg": {
+        "label": 1,
+        "time": "2026-04-15 16:42:53"
+      },
+      "-OqFWRHLXvCg-aUYVpT4": {
+        "label": 1,
+        "time": "2026-04-15 16:42:58"
+      },
+      "-OqFWSZTc-bYbntbxVeG": {
+        "label": 1,
+        "time": "2026-04-15 16:43:04"
+      },
+      "-OqFWTq3ZD-Ti62ANL4v": {
+        "label": 1,
+        "time": "2026-04-15 16:43:09"
+      },
+      "-OqFWV71Fp6ZSAjM8-6Z": {
+        "label": 1,
+        "time": "2026-04-15 16:43:14"
+      },
+      "-OqFWWSt83GE6-vmKZN8": {
+        "label": 1,
+        "time": "2026-04-15 16:43:20"
+      },
+      "-OqFWXm8_SDmklT9w86K": {
+        "label": 1,
+        "time": "2026-04-15 16:43:25"
+      },
+      "-OqGCu7RPyoZAtHhGAAx": {
+        "label": 1,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqGCvZ3OgfhPVlNHmo2": {
+        "label": 0,
+        "time": "2026-04-15 19:57:21"
+      },
+      "-OqGCx0NKsmKbTSGNBV-": {
+        "label": 0,
+        "time": "2026-04-15 19:57:27"
+      },
+      "-OqGCyQ2-7LEyMVr9cPn": {
+        "label": 0,
+        "time": "2026-04-15 19:57:33"
+      },
+      "-OqGCzpAUn0ynGIKCnwq": {
+        "label": 0,
+        "time": "2026-04-15 19:57:38"
+      },
+      "-OqGD0DkqklCIMlexn2u": {
+        "label": 0,
+        "time": "2026-04-15 19:57:44"
+      },
+      "-OqGD1eakqw5l5W-HClS": {
+        "label": 0,
+        "time": "2026-04-15 19:57:50"
+      },
+      "-OqGD35QOEnNxXQYr7ZT": {
+        "label": 0,
+        "time": "2026-04-15 19:57:56"
+      },
+      "-OqGD4XDGyWzOrCX8Yr4": {
+        "label": 0,
+        "time": "2026-04-15 19:58:02"
+      },
+      "-OqGD5wNyFqgnS1VnRoo": {
+        "label": 0,
+        "time": "2026-04-15 19:58:07"
+      },
+      "-OqGD7LBTkRuitlq1AqC": {
+        "label": 0,
+        "time": "2026-04-15 19:58:13"
+      },
+      "-OqGD8jNpLTQwan4-Xj_": {
+        "label": 0,
+        "time": "2026-04-15 19:58:19"
+      },
+      "-OqGDABDmK8xFLIzpOIe": {
+        "label": 0,
+        "time": "2026-04-15 19:58:25"
+      },
+      "-OqGDBc8I7h1wFKkQUVR": {
+        "label": 0,
+        "time": "2026-04-15 19:58:31"
+      },
+      "-OqGDD4ToC-xuDNlG1yC": {
+        "label": 0,
+        "time": "2026-04-15 19:58:37"
+      },
+      "-OqGDETuZC03vOvrkbl5": {
+        "label": 0,
+        "time": "2026-04-15 19:58:42"
+      },
+      "-OqGDFuFMNG_lJ7MSpYS": {
+        "label": 0,
+        "time": "2026-04-15 19:58:48"
+      },
+      "-OqGDHKHzD-KTl95VE3A": {
+        "label": 0,
+        "time": "2026-04-15 19:58:54"
+      },
+      "-OqGDImfahYtgzTzFg7W": {
+        "label": 0,
+        "time": "2026-04-15 19:59:00"
+      },
+      "-OqGDKEt807u_9liiZxL": {
+        "label": 0,
+        "time": "2026-04-15 19:59:06"
+      },
+      "-OqGDLfWuXE2HrKn6hx9": {
+        "label": 0,
+        "time": "2026-04-15 19:59:12"
+      },
+      "-OqGDN5FsMHzTFWyyuBS": {
+        "label": 0,
+        "time": "2026-04-15 19:59:18"
+      },
+      "-OqGDOXpn0ejev0sqZA_": {
+        "label": 0,
+        "time": "2026-04-15 19:59:24"
+      },
+      "-OqGDPxhHjJqX1Cspna0": {
+        "label": 0,
+        "time": "2026-04-15 19:59:29"
+      },
+      "-OqGDROt6MiNkZXwtwuk": {
+        "label": 0,
+        "time": "2026-04-15 19:59:35"
+      },
+      "-OqGDSoLQqdmF5SsLhbK": {
+        "label": 0,
+        "time": "2026-04-15 19:59:41"
+      },
+      "-OqGDUDSMbPBECrBjm9x": {
+        "label": 0,
+        "time": "2026-04-15 19:59:47"
+      },
+      "-OqGDVbynhMVG5QcO2fr": {
+        "label": 0,
+        "time": "2026-04-15 19:59:53"
+      },
+      "-OqGDX0B0QlYuBVZE3Mo": {
+        "label": 0,
+        "time": "2026-04-15 19:59:58"
+      },
+      "-OqGDYQElpnj1_P62a8l": {
+        "label": 0,
+        "time": "2026-04-15 20:00:04"
+      },
+      "-OqGDZpg9PRXi2BAEFoh": {
+        "label": 0,
+        "time": "2026-04-15 20:00:10"
+      },
+      "-OqGDaIQC9ZpjHLPEsby": {
+        "label": 0,
+        "time": "2026-04-15 20:00:16"
+      },
+      "-OqGDbjeOELN7RjR6WNN": {
+        "label": 0,
+        "time": "2026-04-15 20:00:22"
+      },
+      "-OqGDd97zDdzI9Acqjau": {
+        "label": 0,
+        "time": "2026-04-15 20:00:28"
+      },
+      "-OqGDe_MS177H_aFqQ3-": {
+        "label": 0,
+        "time": "2026-04-15 20:00:33"
+      },
+      "-OqGDfzuJWNubDC3G5Nb": {
+        "label": 0,
+        "time": "2026-04-15 20:00:39"
+      },
+      "-OqGDhP2GgH50uvj6gep": {
+        "label": 0,
+        "time": "2026-04-15 20:00:45"
+      },
+      "-OqGDio0wgaFbdUDRFkm": {
+        "label": 0,
+        "time": "2026-04-15 20:00:51"
+      },
+      "-OqGDkD_Bd8y74W7RXMS": {
+        "label": 0,
+        "time": "2026-04-15 20:00:57"
+      },
+      "-OqGDlbr2rdcmY_9F4ks": {
+        "label": 0,
+        "time": "2026-04-15 20:01:02"
+      },
+      "-OqGDn16tIV9Y17v2Kz6": {
+        "label": 0,
+        "time": "2026-04-15 20:01:08"
+      },
+      "-OqGDoRvTCDxkLlQr8r8": {
+        "label": 0,
+        "time": "2026-04-15 20:01:14"
+      },
+      "-OqGDpqYOSr4k7j-09-m": {
+        "label": 0,
+        "time": "2026-04-15 20:01:20"
+      },
+      "-OqGDrFlDRmkPs911oCR": {
+        "label": 0,
+        "time": "2026-04-15 20:01:25"
+      },
+      "-OqGDshFCFRoTxQn_V_-": {
+        "label": 0,
+        "time": "2026-04-15 20:01:31"
+      },
+      "-OqGDu6FkcNHkI_igFaV": {
+        "label": 0,
+        "time": "2026-04-15 20:01:37"
+      },
+      "-OqGDvVgCQCmNshH7qX4": {
+        "label": 0,
+        "time": "2026-04-15 20:01:43"
+      },
+      "-OqGDwyerteF_J0p-iRD": {
+        "label": 0,
+        "time": "2026-04-15 20:01:49"
+      },
+      "-OqGDyOamKS0kmsmxjiJ": {
+        "label": 0,
+        "time": "2026-04-15 20:01:55"
+      },
+      "-OqGDzq9YvUtyoI_rhd7": {
+        "label": 0,
+        "time": "2026-04-15 20:02:01"
+      },
+      "-OqGE0Ge-bdnLh0_jm2k": {
+        "label": 0,
+        "time": "2026-04-15 20:02:06"
+      },
+      "-OqGE1fB1oIeiNrI8psS": {
+        "label": 0,
+        "time": "2026-04-15 20:02:12"
+      },
+      "-OqGE366sQGoqvwoErba": {
+        "label": 0,
+        "time": "2026-04-15 20:02:18"
+      },
+      "-OqGE4WEMF5Ay9uZpblB": {
+        "label": 0,
+        "time": "2026-04-15 20:02:24"
+      },
+      "-OqGE5vRym4ekxgpvSmh": {
+        "label": 0,
+        "time": "2026-04-15 20:02:30"
+      },
+      "-OqGE7KnQXA6B3-XGR6m": {
+        "label": 0,
+        "time": "2026-04-15 20:02:35"
+      },
+      "-OqGE8lD0dXdUsV0pG9q": {
+        "label": 0,
+        "time": "2026-04-15 20:02:41"
+      },
+      "-OqGEADdEz8SGI26gTyt": {
+        "label": 0,
+        "time": "2026-04-15 20:02:47"
+      },
+      "-OqGEBeUD7c5lEi3E9T0": {
+        "label": 0,
+        "time": "2026-04-15 20:02:53"
+      },
+      "-OqGED4aAmxZWL_UJ9jE": {
+        "label": 0,
+        "time": "2026-04-15 20:02:59"
+      },
+      "-OqGEEUnLUbaZZqgocq8": {
+        "label": 0,
+        "time": "2026-04-15 20:03:05"
+      },
+      "-OqGEFtn_1BYN2xwM8MR": {
+        "label": 0,
+        "time": "2026-04-15 20:03:10"
+      },
+      "-OqGEHOroAzWFugK4Iyb": {
+        "label": 0,
+        "time": "2026-04-15 20:03:17"
+      },
+      "-OqGEIp68rvnMNLyNWq9": {
+        "label": 0,
+        "time": "2026-04-15 20:03:22"
+      },
+      "-OqOZAntXR7bYKjiZHRm": {
+        "label": 0,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqOZCEQynj4px28UYkt": {
+        "label": 0,
+        "time": "2026-04-17 10:51:38"
+      },
+      "-OqOZDd4C6VVh70VXNCU": {
+        "label": 0,
+        "time": "2026-04-17 10:51:44"
+      },
+      "-OqOZF8UtLhoU6UCfqig": {
+        "label": 0,
+        "time": "2026-04-17 10:51:50"
+      },
+      "-OqOZGYDd9qDNl6xufzF": {
+        "label": 0,
+        "time": "2026-04-17 10:51:56"
+      },
+      "-OqOZHwOBv38-G6NBJ30": {
+        "label": 0,
+        "time": "2026-04-17 10:52:02"
+      },
+      "-OqOZJLxy9VdGkMT6NSW": {
+        "label": 0,
+        "time": "2026-04-17 10:52:07"
+      },
+      "-OqOZKm7sNGDa1Z7Yw1H": {
+        "label": 0,
+        "time": "2026-04-17 10:52:13"
+      },
+      "-OqOZMB79RqEUZ7Q7sr_": {
+        "label": 0,
+        "time": "2026-04-17 10:52:19"
+      },
+      "-OqOZN_XQKr71zDCwqXF": {
+        "label": 0,
+        "time": "2026-04-17 10:52:25"
+      },
+      "-OqOZOzA3VK4-T3iK_vx": {
+        "label": 0,
+        "time": "2026-04-17 10:52:30"
+      },
+      "-OqOZQOKIOnJbXSbeHdi": {
+        "label": 0,
+        "time": "2026-04-17 10:52:36"
+      },
+      "-OqOZRoBcUn-kSwK37qY": {
+        "label": 0,
+        "time": "2026-04-17 10:52:42"
+      },
+      "-OqOZTAWlhqFZZsCbjNs": {
+        "label": 0,
+        "time": "2026-04-17 10:52:48"
+      },
+      "-OqOZU_JeoHiwdhumaLK": {
+        "label": 0,
+        "time": "2026-04-17 10:52:53"
+      },
+      "-OqOZVzB-xlntGXZxJrc": {
+        "label": 0,
+        "time": "2026-04-17 10:52:59"
+      },
+      "-OqOZXOQRTTu900TuatK": {
+        "label": 0,
+        "time": "2026-04-17 10:53:05"
+      },
+      "-OqOZYrGgsR-8wgZuBVR": {
+        "label": 0,
+        "time": "2026-04-17 10:53:11"
+      },
+      "-OqOZ_G7AFDeOtFrbuZi": {
+        "label": 0,
+        "time": "2026-04-17 10:53:17"
+      },
+      "-OqOZafuL_ugBeOGez3g": {
+        "label": 0,
+        "time": "2026-04-17 10:53:22"
+      },
+      "-OqOZc4BdaBrC6JMDGl6": {
+        "label": 0,
+        "time": "2026-04-17 10:53:28"
+      },
+      "-OqOZdTnOpRwEmG3umtV": {
+        "label": 1,
+        "time": "2026-04-17 10:53:34"
+      },
+      "-OqOZesZo2xITtTT5jCV": {
+        "label": 1,
+        "time": "2026-04-17 10:53:40"
+      },
+      "-OqOZgIMHa6Wr-0f-uBn": {
+        "label": 1,
+        "time": "2026-04-17 10:53:45"
+      },
+      "-OqOZhgybmE4DuTHQLtH": {
+        "label": 1,
+        "time": "2026-04-17 10:53:51"
+      },
+      "-OqOZj5KANYfOzrPzqF7": {
+        "label": 1,
+        "time": "2026-04-17 10:53:57"
+      },
+      "-OqOZkV1QOA41tKehCbp": {
+        "label": 1,
+        "time": "2026-04-17 10:54:03"
+      },
+      "-OqOZlulL_uZWPFUkapS": {
+        "label": 1,
+        "time": "2026-04-17 10:54:08"
+      },
+      "-OqOZnLs6XKZ8mioPpwI": {
+        "label": 1,
+        "time": "2026-04-17 10:54:14"
+      },
+      "-OqOZolO-znwCnZu1lyR": {
+        "label": 1,
+        "time": "2026-04-17 10:54:20"
+      },
+      "-OqOZqAzQn7axlcbu98l": {
+        "label": 1,
+        "time": "2026-04-17 10:54:26"
+      },
+      "-OqOZra0jMqVSt5TLqQq": {
+        "label": 3,
+        "time": "2026-04-17 10:54:32"
+      },
+      "-OqOZt2qM_xISLsPb6XQ": {
+        "label": 3,
+        "time": "2026-04-17 10:54:38"
+      },
+      "-OqOZuSHSdjBxERKQaCC": {
+        "label": 3,
+        "time": "2026-04-17 10:54:43"
+      },
+      "-OqOZvrXO8oNjjGWm1Tp": {
+        "label": 1,
+        "time": "2026-04-17 10:54:49"
+      },
+      "-OqOZxGZQTNeQPcdw_CN": {
+        "label": 3,
+        "time": "2026-04-17 10:54:55"
+      },
+      "-OqOZyg0Hh9-HLcYcABR": {
+        "label": 1,
+        "time": "2026-04-17 10:55:01"
+      },
+      "-OqO_-5wTGPma1tM8Z_Y": {
+        "label": 1,
+        "time": "2026-04-17 10:55:07"
+      },
+      "-OqO_0VbodVahgsv4T9J": {
+        "label": 1,
+        "time": "2026-04-17 10:55:12"
+      },
+      "-OqO_1wK1h-pSJtGUkkn": {
+        "label": 1,
+        "time": "2026-04-17 10:55:18"
+      },
+      "-OqO_3LjPothMPH1dZjC": {
+        "label": 1,
+        "time": "2026-04-17 10:55:24"
+      },
+      "-OqO_4l1UqiXDWSpE6R5": {
+        "label": 1,
+        "time": "2026-04-17 10:55:30"
+      },
+      "-OqO_69bAqv-2_suu6av": {
+        "label": 1,
+        "time": "2026-04-17 10:55:35"
+      },
+      "-OqO_7ZDS_Efz9Pf0p3Q": {
+        "label": 1,
+        "time": "2026-04-17 10:55:41"
+      },
+      "-OqO_8zoSo-i2TN5UTex": {
+        "label": 1,
+        "time": "2026-04-17 10:55:47"
+      },
+      "-OqO_ARPurkOCx57UDNL": {
+        "label": 1,
+        "time": "2026-04-17 10:55:53"
+      },
+      "-OqO_BrQhrGtxZsi5HMH": {
+        "label": 1,
+        "time": "2026-04-17 10:55:59"
+      },
+      "-OqO_DG0KxfqWv__7YFJ": {
+        "label": 1,
+        "time": "2026-04-17 10:56:05"
+      },
+      "-OqO_EeeAfthl2E49Tl3": {
+        "label": 1,
+        "time": "2026-04-17 10:56:10"
+      },
+      "-OqO_G0ny5evuELhp4GB": {
+        "label": 1,
+        "time": "2026-04-17 10:56:16"
+      },
+      "-OqO_HQNDgMsqraDYcLl": {
+        "label": 1,
+        "time": "2026-04-17 10:56:22"
+      },
+      "-OqO_IpizWs5fXu3xzS_": {
+        "label": 1,
+        "time": "2026-04-17 10:56:27"
+      },
+      "-OqO_KITvIRRZ3iJgkWU": {
+        "label": 1,
+        "time": "2026-04-17 10:56:33"
+      },
+      "-OqO_LgtXnVAoRPgr62n": {
+        "label": 3,
+        "time": "2026-04-17 10:56:39"
+      },
+      "-OqO_N7bE0O3CZiFHlwK": {
+        "label": 1,
+        "time": "2026-04-17 10:56:45"
+      },
+      "-OqO_OX1mY7Y1O-UyyDl": {
+        "label": 1,
+        "time": "2026-04-17 10:56:51"
+      },
+      "-OqO_PxCCcS6dl3ZqTTD": {
+        "label": 1,
+        "time": "2026-04-17 10:56:57"
+      },
+      "-OqO_RLcSdM__rs5UnP9": {
+        "label": 1,
+        "time": "2026-04-17 10:57:02"
+      },
+      "-OqO_SkhFy7oTsZVFMl0": {
+        "label": 1,
+        "time": "2026-04-17 10:57:08"
+      },
+      "-OqO_U9-PhCA3NiVg_WK": {
+        "label": 1,
+        "time": "2026-04-17 10:57:14"
+      },
+      "-OqO_VZIIX7UTQd9Yl7K": {
+        "label": 1,
+        "time": "2026-04-17 10:57:19"
+      },
+      "-OqO_Wzx-Ej561lADOpW": {
+        "label": 1,
+        "time": "2026-04-17 10:57:25"
+      },
+      "-OqO_YOvO6zuA8RRdBSF": {
+        "label": 1,
+        "time": "2026-04-17 10:57:31"
+      },
+      "-OqO_ZnOk5ytAQIb1Dah": {
+        "label": 1,
+        "time": "2026-04-17 10:57:37"
+      },
+      "-OqO_aG8OOteCAuBaTdZ": {
+        "label": 1,
+        "time": "2026-04-17 10:57:43"
+      },
+      "-OqO_bf9L-6vSfOWI8r0": {
+        "label": 1,
+        "time": "2026-04-17 10:57:49"
+      },
+      "-OqO_d3p-g8GVoLeOqNe": {
+        "label": 1,
+        "time": "2026-04-17 10:57:54"
+      },
+      "-OqO_eUPaqzVNx3d1dEt": {
+        "label": 1,
+        "time": "2026-04-17 10:58:00"
+      },
+      "-OqO_fwwt85HFeJClKz2": {
+        "label": 1,
+        "time": "2026-04-17 10:58:06"
+      },
+      "-OqO_hLsr8rYQ-DR8dSi": {
+        "label": 1,
+        "time": "2026-04-17 10:58:12"
+      },
+      "-OqO_in7cPQNG0L-W86j": {
+        "label": 1,
+        "time": "2026-04-17 10:58:18"
+      },
+      "-OqO_kBVAKGD5vfIeK2-": {
+        "label": 1,
+        "time": "2026-04-17 10:58:24"
+      },
+      "-OqO_l_vmG8Fot3Mrwa7": {
+        "label": 1,
+        "time": "2026-04-17 10:58:29"
+      },
+      "-OqO_mzdq1F457iFL8cw": {
+        "label": 1,
+        "time": "2026-04-17 10:58:35"
+      },
+      "-OqO_oNfRJ8TQOM4jDvv": {
+        "label": 1,
+        "time": "2026-04-17 10:58:41"
+      },
+      "-OqO_pm-z_L3-33SdLkq": {
+        "label": 1,
+        "time": "2026-04-17 10:58:46"
+      },
+      "-OqO_rAoitq3aIexfCsh": {
+        "label": 1,
+        "time": "2026-04-17 10:58:52"
+      },
+      "-OqO_sYR_zM4-wbJorTo": {
+        "label": 1,
+        "time": "2026-04-17 10:58:58"
+      },
+      "-OqO_ty48PzLd285JSSj": {
+        "label": 1,
+        "time": "2026-04-17 10:59:04"
+      },
+      "-OqO_vMuRNdK3pC8KiWa": {
+        "label": 1,
+        "time": "2026-04-17 10:59:09"
+      },
+      "-OqO_wl027kGBDCLq2hY": {
+        "label": 1,
+        "time": "2026-04-17 10:59:15"
+      },
+      "-OqO_y8uvhAhSfWrOrHG": {
+        "label": 1,
+        "time": "2026-04-17 10:59:21"
+      },
+      "-OqO_z_o9QbOXIUaDObL": {
+        "label": 1,
+        "time": "2026-04-17 10:59:27"
+      },
+      "-OqOa-zsY89J0mgVoJIl": {
+        "label": 1,
+        "time": "2026-04-17 10:59:32"
+      },
+      "-OqOa1PlSiZsJkB9J8V-": {
+        "label": 1,
+        "time": "2026-04-17 10:59:38"
+      },
+      "-OqOa2oGVUowqfG0ZVNK": {
+        "label": 1,
+        "time": "2026-04-17 10:59:44"
+      },
+      "-OqOa4ETuyd0Si4CjEQJ": {
+        "label": 1,
+        "time": "2026-04-17 10:59:50"
+      },
+      "-OqOa5deqKBdaf_MVgDE": {
+        "label": 1,
+        "time": "2026-04-17 10:59:55"
+      },
+      "-OqOa73ailcupxKfgXyN": {
+        "label": 1,
+        "time": "2026-04-17 11:00:01"
+      },
+      "-OqOa8U2zz2YTgZJkqg0": {
+        "label": 1,
+        "time": "2026-04-17 11:00:07"
+      },
+      "-OqOa9syp8WneJHyFGVC": {
+        "label": 1,
+        "time": "2026-04-17 11:00:13"
+      },
+      "-OqOaBHbAbTzGl25M_s2": {
+        "label": 1,
+        "time": "2026-04-17 11:00:19"
+      },
+      "-OqOaCioShKo1JbYuNv1": {
+        "label": 1,
+        "time": "2026-04-17 11:00:24"
+      },
+      "-OqOaE799Qn5N_gV8NAh": {
+        "label": 1,
+        "time": "2026-04-17 11:00:30"
+      },
+      "-OqOaFXDf9a8ioMTHf_6": {
+        "label": 1,
+        "time": "2026-04-17 11:00:36"
+      },
+      "-OqOaGvW0K6yuUWXYnfo": {
+        "label": 1,
+        "time": "2026-04-17 11:00:42"
+      },
+      "-OqOaIQHeLnu2Z0S2LH4": {
+        "label": 1,
+        "time": "2026-04-17 11:00:48"
+      },
+      "-OqOaJouCmSJGjE3aWIu": {
+        "label": 1,
+        "time": "2026-04-17 11:00:54"
+      },
+      "-OqOaLDODKXNXBE9ZDQe": {
+        "label": 1,
+        "time": "2026-04-17 11:00:59"
+      },
+      "-OqOaMcRzbzn21iToMti": {
+        "label": 1,
+        "time": "2026-04-17 11:01:05"
+      },
+      "-OqOaO1k9VxDlkMc79uA": {
+        "label": 1,
+        "time": "2026-04-17 11:01:11"
+      },
+      "-OqOaPR1M4hgPky0nPoa": {
+        "label": 1,
+        "time": "2026-04-17 11:01:17"
+      },
+      "-OqOaQq13erFx5pVinWM": {
+        "label": 1,
+        "time": "2026-04-17 11:01:22"
+      },
+      "-OqOaSEVwo9VMmWLyVJe": {
+        "label": 1,
+        "time": "2026-04-17 11:01:28"
+      },
+      "-OqOaThHpYawpCint3aY": {
+        "label": 1,
+        "time": "2026-04-17 11:01:34"
+      },
+      "-OqOaV5put9MRnIw32vJ": {
+        "label": 1,
+        "time": "2026-04-17 11:01:40"
+      },
+      "-OqOaWSxxMExGYSK2DGB": {
+        "label": 1,
+        "time": "2026-04-17 11:01:45"
+      },
+      "-OqOaXr6ZHmu8px5KJ1V": {
+        "label": 1,
+        "time": "2026-04-17 11:01:51"
+      },
+      "-OqOaZHluyoGRi5FkvSb": {
+        "label": 1,
+        "time": "2026-04-17 11:01:57"
+      },
+      "-OqOa_gr7HhpvviUzYr5": {
+        "label": 1,
+        "time": "2026-04-17 11:02:03"
+      },
+      "-OqOab3rpWDnxxm8_xqE": {
+        "label": 1,
+        "time": "2026-04-17 11:02:08"
+      },
+      "-OqOacXxbxiyg2O28BYZ": {
+        "label": 1,
+        "time": "2026-04-17 11:02:14"
+      },
+      "-OqOadwPU9aBaoAKPPP1": {
+        "label": 1,
+        "time": "2026-04-17 11:02:20"
+      },
+      "-OqOafMSqNF8q_SYPQnD": {
+        "label": 1,
+        "time": "2026-04-17 11:02:26"
+      },
+      "-OqOaglSUoPtPE-18hiC": {
+        "label": 1,
+        "time": "2026-04-17 11:02:32"
+      },
+      "-OqOaiABtw8GgZN6HQOw": {
+        "label": 1,
+        "time": "2026-04-17 11:02:37"
+      },
+      "-OqOajbUipGlwfPcsqnp": {
+        "label": 1,
+        "time": "2026-04-17 11:02:43"
+      },
+      "-OqOal1J1Ju3v8sU2kqq": {
+        "label": 1,
+        "time": "2026-04-17 11:02:49"
+      },
+      "-OqOamSjWpiSHzFXObh4": {
+        "label": 1,
+        "time": "2026-04-17 11:02:55"
+      },
+      "-OqOanslriruQYzaDeFY": {
+        "label": 1,
+        "time": "2026-04-17 11:03:01"
+      },
+      "-OqOapHscth_SQzbM9ou": {
+        "label": 1,
+        "time": "2026-04-17 11:03:07"
+      },
+      "-OqOaqgWA7UnVbtgUtYG": {
+        "label": 1,
+        "time": "2026-04-17 11:03:12"
+      },
+      "-OqOas5sFJfrINkEBqa0": {
+        "label": 1,
+        "time": "2026-04-17 11:03:18"
+      },
+      "-OqOatYO2dcQ9cnT04JH": {
+        "label": 1,
+        "time": "2026-04-17 11:03:24"
+      },
+      "-OqOauwytlrIK_478Qoo": {
+        "label": 1,
+        "time": "2026-04-17 11:03:30"
+      },
+      "-OqOawLsQGdBERIyjNT9": {
+        "label": 1,
+        "time": "2026-04-17 11:03:35"
+      },
+      "-OqOaxkLHjiF7LuTZneB": {
+        "label": 1,
+        "time": "2026-04-17 11:03:41"
+      },
+      "-OqOaz6-p0tf8gTUmZDv": {
+        "label": 3,
+        "time": "2026-04-17 11:03:47"
+      },
+      "-OqOb0lDp7cK-7ohbavK": {
+        "label": 1,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqOb2AZ5DBlyey-DHZ_": {
+        "label": 1,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqOb3_X768KapByleOZ": {
+        "label": 1,
+        "time": "1970-01-01 00:00:00"
+      },
+      "-OqOb4zeWCuUKCMcMkF0": {
+        "label": 1,
+        "time": "2026-04-17 11:04:15"
+      },
+      "-OqOb6OEE2_uCk4oY8dM": {
+        "label": 1,
+        "time": "2026-04-17 11:04:21"
+      },
+      "-OqOb7qBTXm8p7le_li7": {
+        "label": 1,
+        "time": "2026-04-17 11:04:26"
+      },
+      "-OqOb9ER6aB0PtjlDbry": {
+        "label": 1,
+        "time": "2026-04-17 11:04:32"
+      },
+      "-OqObAfFX6LJhEyuL9sC": {
+        "label": 1,
+        "time": "2026-04-17 11:04:38"
+      },
+      "-OqObC52b43jsxTK8s6Y": {
+        "label": 1,
+        "time": "2026-04-17 11:04:44"
+      },
+      "-OqObDT0ftiqOpG26JsQ": {
+        "label": 1,
+        "time": "2026-04-17 11:04:49"
+      },
+      "-OqObEtP3OoxKawJwH7E": {
+        "label": 1,
+        "time": "2026-04-17 11:04:55"
+      },
+      "-OqObGHkij9WA6fBiaEf": {
+        "label": 1,
+        "time": "2026-04-17 11:05:01"
+      },
+      "-OqObHjVyexUD2k8KNia": {
+        "label": 1,
+        "time": "2026-04-17 11:05:07"
+      },
+      "-OqObJFkhkbSpN3eicZs": {
+        "label": 1,
+        "time": "2026-04-17 11:05:13"
+      },
+      "-OqObKdgssp-IdFxeeo7": {
+        "label": 1,
+        "time": "2026-04-17 11:05:19"
+      },
+      "-OqObM1cyMFi3kT0KMyF": {
+        "label": 1,
+        "time": "2026-04-17 11:05:25"
+      },
+      "-OqObNR2waWiy8b8jbHm": {
+        "label": 1,
+        "time": "2026-04-17 11:05:30"
+      },
+      "-OqObOrNytZvAfvR7zcL": {
+        "label": 1,
+        "time": "2026-04-17 11:05:36"
+      },
+      "-OqObQGBomf_spMG9hCK": {
+        "label": 1,
+        "time": "2026-04-17 11:05:42"
+      },
+      "-OqObRh7H7Rsk2eCYmBT": {
+        "label": 1,
+        "time": "2026-04-17 11:05:48"
+      },
+      "-OqObT8zdOK2CxD-6Ys2": {
+        "label": 1,
+        "time": "2026-04-17 11:05:54"
+      }
+    },
+    "telemetry": {
+      "ai": {
+        "label_name": "still"
+      },
+      "control": {
+        "is_manual": false,
+        "manual_brightness": 0
+      },
+      "heartbeat": {
+        "timestamp": 120934,
+        "uptime_s": 120
+      },
+      "light": {
+        "env_lux": 141,
+        "lamp_percent": 50,
+        "lux_threshold": 59,
+        "measure_mode": false,
+        "mode": "dark"
+      }
+    }
+  },
+  "users": {
+    "LP1dZ9h7aVgXJtADZbLaPvnFw4w2": {
+      "role": "admin"
+    },
+    "Wz6JpuIU0shYFGWIW1EH969Pn2k1": {
+      "role": "device"
+    },
+    "d1Ygd2sE1wMQheALTqQeNxQast13": {
+      "role": "user"
+    }
+  }
+}
