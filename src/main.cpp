@@ -17,10 +17,10 @@
 // ─────────────────────────────────────────────────────────────
 //  CREDENTIALS
 // ─────────────────────────────────────────────────────────────
-#define USER_EMAIL    "esp32_radar@gmail.com"
-#define USER_PASSWORD "55555555"
-#define API_KEY       "AIzaSyBqQAhZefoX7XX6NRjH3wSGXzPNM0dpN6c"
-#define DATABASE_URL  "https://j-b2103-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define USER_EMAIL    "YOUR_EMAIL_HERE"
+#define USER_PASSWORD "YOUR_PASSWORD_HERE"
+#define API_KEY       "YOUR_API_KEY_HERE"
+#define DATABASE_URL  "YOUR_DATABASE_URL_HERE"
 
 // ─────────────────────────────────────────────────────────────
 //  PIN & HARDWARE
